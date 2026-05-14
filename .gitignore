@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Results and outputs
+results/*.png
+results/*.csv
+
+# Data files
+data/*.csv
+data/*.json
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Model files
+models/
+*.gguf
+*.bin
+*.safetensors

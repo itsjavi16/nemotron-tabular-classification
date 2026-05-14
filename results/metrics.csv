@@ -1,0 +1,3 @@
+model,accuracy,macro_f1,auc_roc,ms_per_row,total_time_s,n_samples,week,device,mode,dataset
+Random Forest (100 trees),0.837,0.8366,0.9198,0.007,0.18,25910,1,local-cpu,baseline,nvidia/Nemotron-Personas-USA
+XGBoost,0.7601,0.7598,0.8307,0.001,0.02,25910,1,local-cpu,baseline,nvidia/Nemotron-Personas-USA
