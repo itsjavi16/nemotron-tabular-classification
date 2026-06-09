@@ -1,5 +1,8 @@
-model,accuracy,macro_f1,auc_roc,ms_per_row,total_time_s,n_samples,week,device,mode,dataset,n_train,n_test,split,unknown
-Random Forest (100 trees),0.6439,0.64,0.6795,0.089,0.05,615,1,local-cpu,baseline,nvidia/Nemotron-Personas-USA,2460.0,615.0,shared-5000,
-XGBoost,0.7089,0.7067,0.7447,0.005,0.0,615,1,local-cpu,baseline,nvidia/Nemotron-Personas-USA,2460.0,615.0,shared-5000,
-Nano 4B zero-shot,0.6341,0.6083,0.6156,3106.3,,615,3,local-rtx4060,,nvidia/Nemotron-Personas-USA,,,,0.0
-Nano 4B few-shot,0.702,0.7019,0.7071,4275.2,,614,3,local-rtx4060,,nvidia/Nemotron-Personas-USA,,,,1.0
+model,accuracy,macro_f1,auc_roc,ms_per_row,total_time_s,n_samples,week,device,mode,dataset,n_train,n_test,split,unknown,avg_tokens
+Random Forest (100 trees),0.6439,0.64,0.6795,0.089,0.05,615,1,local-cpu,baseline,nvidia/Nemotron-Personas-USA,2460.0,615.0,shared-5000,,
+XGBoost,0.7089,0.7067,0.7447,0.005,0.0,615,1,local-cpu,baseline,nvidia/Nemotron-Personas-USA,2460.0,615.0,shared-5000,,
+Nano 4B zero-shot,0.6341,0.6083,0.6156,3106.3,,615,3,local-rtx4060,,nvidia/Nemotron-Personas-USA,,,,0.0,
+Nano 4B few-shot,0.702,0.7019,0.7071,4275.2,,614,3,local-rtx4060,,nvidia/Nemotron-Personas-USA,,,,1.0,
+Nano 30B zero-shot,0.7252,0.7227,0.7227,3922.1,,615,4,fds-rtx5000,,nvidia/Nemotron-Personas-USA,,,,0.0,193.2
+Nano 30B few-shot,0.6838,0.6838,0.6887,9841.9,,604,4,fds-rtx5000,,nvidia/Nemotron-Personas-USA,,,,11.0,981.6
+Nano 30B reasoning OFF,0.7285,0.7266,0.7272,3524.5,,615,4,fds-rtx5000,,nvidia/Nemotron-Personas-USA,,,,0.0,146.5
