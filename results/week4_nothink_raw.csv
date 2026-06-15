@@ -1,0 +1,616 @@
+row_id,input,occupation,audit_verdict,verdict_num,true_label,pred_label,correct,time_ms,tokens,trace,raw
+0,"A 35-year-old male, divorced, working as a shipping receiving or inventory clerk. Located in OK.",shipping receiving or inventory clerk,no,0,not_college,not_college,True,14291,98,,not_college
+1,"A 57-year-old male, married present, working as a driver sales worker or truck driver. Located in MN.",driver sales worker or truck driver,no,0,not_college,not_college,True,3721,173,,not_college
+2,"A 37-year-old male, married present, working as a computer support specialist. Located in UT.",computer support specialist,maybe,2,college,college,True,4395,274,,college
+3,"A 38-year-old female, never married, working as a cashier. Located in LA.",cashier,no,0,college,not_college,False,3113,98,,not_college
+4,"A 37-year-old female, married present, working as a software developer. Located in MN.",software developer,yes,1,college,college,True,2992,79,,college
+5,"A 36-year-old male, never married, working as a software developer. Located in CA.",software developer,yes,1,not_college,college,False,3105,91,,college
+6,"A 41-year-old female, married present, working as a police officer. Located in OK.",police officer,maybe,2,college,college,True,4210,250,,college
+7,"A 59-year-old female, married present, working as a janitor or building cleaner. Located in CT.",janitor or building cleaner,no,0,not_college,not_college,True,3469,149,,not_college
+8,"A 32-year-old male, married present, working as a registered nurse. Located in NV.",registered nurse,yes,1,college,college,True,3163,99,,college
+9,"A 24-year-old female, married present, working as a miscellaneous agricultural worker. Located in NC.",miscellaneous agricultural worker,no,0,college,not_college,False,3477,142,,not_college
+10,"A 60-year-old female, divorced, working as a retail salesperson. Located in KY.",retail salesperson,no,0,college,not_college,False,3337,122,,not_college
+11,"A 21-year-old male, never married, working as a secondary school teacher. Located in DC.",secondary school teacher,yes,1,not_college,college,False,3359,139,,college
+12,"A 61-year-old female, divorced, working as a customer service representative. Located in TX.",customer service representative,no,0,college,not_college,False,3258,110,,not_college
+13,"A 55-year-old female, married present, working as a general or operations manager. Located in GA.",general or operations manager,maybe,2,college,college,True,3376,137,,college
+14,"A 58-year-old female, divorced, working as a retail salesperson. Located in FL.",retail salesperson,no,0,not_college,not_college,True,3531,152,,not_college
+15,"A 56-year-old male, divorced, working as a landscaping or groundskeeping worker. Located in CA.",landscaping or groundskeeping worker,no,0,not_college,not_college,True,3468,147,,not_college
+16,"A 47-year-old female, divorced, working as a sales representative wholesale or manufacturing. Located in FL.",sales representative wholesale or manufacturing,maybe,2,not_college,not_college,True,3429,133,,not_college
+17,"A 51-year-old male, married present, working as a manager. Located in TN.",manager,maybe,2,college,college,True,3792,188,,college
+18,"A 24-year-old female, never married, working as a personal care aide. Located in NC.",personal care aide,no,0,not_college,not_college,True,3914,203,,not_college
+19,"A 34-year-old female, never married, working as a receptionist or information clerk. Located in AZ.",receptionist or information clerk,no,0,not_college,not_college,True,3204,112,,not_college
+20,"A 42-year-old female, married present, working as a computer systems analyst. Located in WA.",computer systems analyst,yes,1,college,college,True,3392,143,,college
+21,"A 54-year-old female, married present, working as a project management specialist. Located in NC.",project management specialist,yes,1,college,college,True,3256,120,,college
+22,"A 62-year-old female, married present, working as a postsecondary teacher. Located in FL.",postsecondary teacher,yes,1,college,college,True,2858,52,,college
+23,"A 20-year-old female, never married, working as a elementary or middle school teacher. Located in AZ.",elementary or middle school teacher,yes,1,college,college,True,3231,108,,college
+24,"A 50-year-old female, never married, working as a automotive service technician or mechanic. Located in CA.",automotive service technician or mechanic,no,0,not_college,not_college,True,3510,148,,not_college
+25,"A 24-year-old male, never married, working as a registered nurse. Located in TX.",registered nurse,yes,1,not_college,college,False,3605,159,,college
+26,"A 64-year-old male, separated, working as a industrial truck or tractor operator. Located in NC.",industrial truck or tractor operator,no,0,not_college,not_college,True,3477,140,,not_college
+27,"A 42-year-old female, married present, working as a cashier. Located in OH.",cashier,no,0,college,not_college,False,3091,90,,not_college
+28,"A 59-year-old male, married present, working as a registered nurse. Located in NY.",registered nurse,yes,1,not_college,college,False,3123,91,,college
+29,"A 51-year-old female, never married, working as a first line supervisor of retail sales worker. Located in PR.",first line supervisor of retail sales worker,maybe,2,college,not_college,False,3403,137,,not_college
+30,"A 47-year-old male, married present, working as a customer service representative. Located in CA.",customer service representative,no,0,college,not_college,False,3450,130,,not_college
+31,"A 35-year-old female, divorced, working as a software developer. Located in MO.",software developer,yes,1,college,college,True,3677,168,,college
+32,"A 39-year-old female, married present, working as a janitor or building cleaner. Located in FL.",janitor or building cleaner,no,0,not_college,not_college,True,3571,156,,not_college
+33,"A 59-year-old male, married present, working as a driver sales worker or truck driver. Located in GA.",driver sales worker or truck driver,no,0,not_college,not_college,True,3745,182,,not_college
+34,"A 57-year-old male, married present, working as a shipping receiving or inventory clerk. Located in NJ.",shipping receiving or inventory clerk,no,0,not_college,not_college,True,3083,98,,not_college
+35,"A 64-year-old female, married present, working as a office clerk general. Located in UT.",office clerk general,no,0,not_college,not_college,True,3702,177,,not_college
+36,"A 49-year-old female, married present, working as a carpenter. Located in UT.",carpenter,no,0,not_college,not_college,True,4014,212,,not_college
+37,"A 33-year-old male, never married, working as a sales representative of services. Located in CA.",sales representative of services,maybe,2,college,college,True,4683,320,,college
+38,"A 54-year-old male, married present, working as a stocker or order filler. Located in NY.",stocker or order filler,no,0,not_college,not_college,True,3216,104,,not_college
+39,"A 41-year-old female, married present, working as a waiter or waitress. Located in FL.",waiter or waitress,no,0,not_college,not_college,True,3509,147,,not_college
+40,"A 51-year-old male, married present, working as a courier or messenger. Located in FL.",courier or messenger,no,0,not_college,not_college,True,3332,122,,not_college
+41,"A 22-year-old male, never married, working as a real estate broker or sales agent. Located in NY.",real estate broker or sales agent,maybe,2,not_college,college,False,3490,149,,college
+42,"A 59-year-old male, divorced, working as a first line supervisor of production or operating worker. Located in MA.",first line supervisor of production or operating worker,maybe,2,college,not_college,False,4239,249,,not_college
+43,"A 48-year-old male, divorced, working as a management analyst. Located in CA.",management analyst,yes,1,college,college,True,3052,87,,college
+44,"A 20-year-old male, never married, working as a driver sales worker or truck driver. Located in NY.",driver sales worker or truck driver,no,0,not_college,not_college,True,3670,169,,not_college
+45,"A 31-year-old female, married present, working as a registered nurse. Located in GA.",registered nurse,yes,1,college,college,True,3062,83,,college
+46,"A 62-year-old male, never married, working as a software developer. Located in IL.",software developer,yes,1,not_college,college,False,5444,121,,college
+47,"A 48-year-old female, divorced, working as a management analyst. Located in OH.",management analyst,yes,1,college,college,True,3465,147,,college
+48,"A 35-year-old female, married present, working as a software developer. Located in MS.",software developer,yes,1,not_college,college,False,3071,82,,college
+49,"A 37-year-old male, married present, working as a first line supervisor of retail sales worker. Located in AZ.",first line supervisor of retail sales worker,maybe,2,college,not_college,False,4755,317,,not_college
+50,"A 56-year-old male, married present, working as a personal financial advisor. Located in MI.",personal financial advisor,yes,1,college,college,True,3299,116,,college
+51,"A 54-year-old female, never married, working as a inspector tester sorter sampler or weigher. Located in CA.",inspector tester sorter sampler or weigher,no,0,college,not_college,False,3938,206,,not_college
+52,"A 37-year-old female, married present, working as a accountant or auditor. Located in KY.",accountant or auditor,yes,1,college,college,True,3121,94,,college
+53,"A 42-year-old male, married present, working as a software developer. Located in WI.",software developer,yes,1,college,college,True,3642,171,,college
+54,"A 50-year-old female, divorced, working as a civil engineer. Located in PA.",civil engineer,yes,1,college,college,True,2972,73,,college
+55,"A 62-year-old male, married present, working as a miscellaneous agricultural worker. Located in OH.",miscellaneous agricultural worker,no,0,not_college,not_college,True,3260,120,,not_college
+56,"A 22-year-old female, married present, working as a bus driver school. Located in WA.",bus driver school,no,0,not_college,not_college,True,3900,202,,not_college
+57,"A 34-year-old female, never married, working as a licensed practical or licensed vocational nurse. Located in NC.",licensed practical or licensed vocational nurse,maybe,2,college,not_college,False,3490,148,,not_college
+58,"A 57-year-old male, married present, working as a manager. Located in TX.",manager,maybe,2,college,college,True,2965,91,,college
+59,"A 32-year-old female, never married, working as a miscellaneous agricultural worker. Located in CA.",miscellaneous agricultural worker,no,0,not_college,not_college,True,3317,119,,not_college
+60,"A 39-year-old female, married present, working as a maintenance or repair worker general. Located in CA.",maintenance or repair worker general,no,0,not_college,not_college,True,3339,125,,not_college
+61,"A 44-year-old male, married present, working as a manager. Located in GA.",manager,maybe,2,college,college,True,3432,138,,college
+62,"A 44-year-old female, married present, working as a secretary or administrative assistant. Located in WA.",secretary or administrative assistant,no,0,not_college,college,False,5106,365,,college
+63,"A 68-year-old female, divorced, working as a elementary or middle school teacher. Located in CA.",elementary or middle school teacher,yes,1,college,college,True,3315,116,,college
+64,"A 61-year-old female, married present, working as a waiter or waitress. Located in FL.",waiter or waitress,no,0,not_college,not_college,True,3253,111,,not_college
+65,"A 65-year-old female, divorced, working as a construction laborer. Located in MI.",construction laborer,no,0,not_college,not_college,True,3049,91,,not_college
+66,"A 54-year-old male, married present, working as a teaching assistant. Located in NJ.",teaching assistant,maybe,2,college,college,True,3727,174,,college
+67,"A 23-year-old female, never married, working as a inspector tester sorter sampler or weigher. Located in CA.",inspector tester sorter sampler or weigher,no,0,not_college,not_college,True,3598,161,,not_college
+68,"A 42-year-old male, never married, working as a physician. Located in AL.",physician,yes,1,not_college,college,False,3284,119,,college
+69,"A 41-year-old female, divorced, working as a medical or health services manager. Located in CT.",medical or health services manager,yes,1,not_college,college,False,3257,115,,college
+70,"A 50-year-old male, married present, working as a inspector tester sorter sampler or weigher. Located in CA.",inspector tester sorter sampler or weigher,no,0,not_college,not_college,True,4687,299,,not_college
+71,"A 28-year-old female, never married, working as a manager. Located in GA.",manager,maybe,2,not_college,college,False,3973,205,,college
+72,"A 53-year-old female, married present, working as a bookkeeping accounting or auditing clerk. Located in IL.",bookkeeping accounting or auditing clerk,no,0,not_college,not_college,True,3598,161,,not_college
+73,"A 23-year-old female, never married, working as a elementary or middle school teacher. Located in TX.",elementary or middle school teacher,yes,1,college,college,True,3222,99,,college
+74,"A 72-year-old male, married present, working as a computer systems analyst. Located in OH.",computer systems analyst,yes,1,not_college,college,False,3530,143,,college
+75,"A 37-year-old male, divorced, working as a personal care aide. Located in MD.",personal care aide,no,0,not_college,not_college,True,3157,103,,not_college
+76,"A 55-year-old male, married present, working as a secondary school teacher. Located in MI.",secondary school teacher,yes,1,college,college,True,4403,271,,college
+77,"A 54-year-old female, separated, working as a assembler or fabricator. Located in MI.",assembler or fabricator,no,0,not_college,not_college,True,3170,97,,not_college
+78,"A 35-year-old male, divorced, working as a sales representative wholesale or manufacturing. Located in NM.",sales representative wholesale or manufacturing,maybe,2,college,not_college,False,3725,177,,not_college
+79,"A 18-year-old male, never married, working as a janitor or building cleaner. Located in MO.",janitor or building cleaner,no,0,not_college,not_college,True,3063,75,,not_college
+80,"A 20-year-old female, never married, working as a licensed practical or licensed vocational nurse. Located in IL.",licensed practical or licensed vocational nurse,maybe,2,not_college,not_college,True,3833,191,,not_college
+81,"A 50-year-old male, married present, working as a first line supervisor of non retail sales worker. Located in PA.",first line supervisor of non retail sales worker,maybe,2,college,not_college,False,4327,261,,not_college
+82,"A 30-year-old female, married present, working as a police officer. Located in TX.",police officer,maybe,2,not_college,college,False,3435,139,,college
+83,"A 37-year-old male, never married, working as a production worker. Located in MI.",production worker,no,0,not_college,not_college,True,2968,93,,not_college
+84,"A 52-year-old male, married present, working as a courier or messenger. Located in MD.",courier or messenger,no,0,college,not_college,False,3412,129,,not_college
+85,"A 54-year-old female, never married, working as a elementary or middle school teacher. Located in MD.",elementary or middle school teacher,yes,1,college,college,True,3431,136,,college
+86,"A 43-year-old female, never married, working as a retail salesperson. Located in FL.",retail salesperson,no,0,not_college,not_college,True,3113,93,,not_college
+87,"A 42-year-old female, divorced, working as a registered nurse. Located in TX.",registered nurse,yes,1,not_college,college,False,2983,85,,college
+88,"A 25-year-old male, never married, working as a sales representative of services. Located in MO.",sales representative of services,maybe,2,not_college,not_college,True,3881,204,,not_college
+89,"A 40-year-old female, married present, working as a maintenance or repair worker general. Located in MO.",maintenance or repair worker general,no,0,not_college,not_college,True,3494,141,,not_college
+90,"A 60-year-old male, married present, working as a stocker or order filler. Located in AZ.",stocker or order filler,no,0,not_college,not_college,True,3173,101,,not_college
+91,"A 22-year-old female, never married, working as a personal care aide. Located in WV.",personal care aide,no,0,not_college,not_college,True,3384,130,,not_college
+92,"A 31-year-old male, never married, working as a clergy. Located in SC.",clergy,yes,1,college,college,True,3505,146,,college
+93,"A 56-year-old male, never married, working as a elementary or middle school teacher. Located in NC.",elementary or middle school teacher,yes,1,college,college,True,3547,148,,college
+94,"A 36-year-old female, married present, working as a first line supervisor of retail sales worker. Located in IL.",first line supervisor of retail sales worker,maybe,2,college,college,True,4077,227,,college
+95,"A 48-year-old female, married present, working as a software developer. Located in CT.",software developer,yes,1,college,college,True,3223,110,,college
+96,"A 23-year-old male, never married, working as a carpenter. Located in NY.",carpenter,no,0,not_college,not_college,True,3175,101,,not_college
+97,"A 43-year-old male, divorced, working as a software developer. Located in IL.",software developer,yes,1,college,college,True,3039,84,,college
+98,"A 20-year-old female, never married, working as a retail salesperson. Located in FL.",retail salesperson,no,0,college,not_college,False,4069,226,,not_college
+99,"A 57-year-old male, never married, working as a sales representative wholesale or manufacturing. Located in IL.",sales representative wholesale or manufacturing,maybe,2,college,not_college,False,3922,204,,not_college
+100,"A 29-year-old female, never married, working as a first line supervisor of retail sales worker. Located in RI.",first line supervisor of retail sales worker,maybe,2,college,college,True,4511,280,,college
+101,"A 32-year-old female, married present, working as a automotive service technician or mechanic. Located in MO.",automotive service technician or mechanic,no,0,not_college,not_college,True,3283,122,,not_college
+102,"A 18-year-old male, never married, working as a accountant or auditor. Located in WV.",accountant or auditor,yes,1,college,college,True,3968,214,,college
+103,"A 47-year-old male, married present, working as a manager. Located in IL.",manager,maybe,2,not_college,college,False,3673,166,,college
+104,"A 51-year-old female, married present, working as a driver sales worker or truck driver. Located in TX.",driver sales worker or truck driver,no,0,not_college,not_college,True,3133,97,,not_college
+105,"A 59-year-old male, never married, working as a secretary or administrative assistant. Located in MS.",secretary or administrative assistant,no,0,not_college,not_college,True,3743,178,,not_college
+106,"A 38-year-old male, married present, working as a clergy. Located in CA.",clergy,yes,1,college,college,True,3002,73,,college
+107,"A 33-year-old female, married present, working as a software developer. Located in SC.",software developer,yes,1,not_college,college,False,2874,72,,college
+108,"A 38-year-old female, married present, working as a retail salesperson. Located in AZ.",retail salesperson,no,0,not_college,not_college,True,3323,125,,not_college
+109,"A 29-year-old female, never married, working as a carpenter. Located in WV.",carpenter,no,0,college,not_college,False,3042,80,,not_college
+110,"A 61-year-old male, widowed, working as a shipping receiving or inventory clerk. Located in GA.",shipping receiving or inventory clerk,no,0,not_college,not_college,True,3675,163,,not_college
+111,"A 55-year-old female, married present, working as a cashier. Located in TX.",cashier,no,0,college,not_college,False,3789,186,,not_college
+112,"A 26-year-old male, never married, working as a chief executive. Located in PA.",chief executive,yes,1,college,college,True,2979,82,,college
+113,"A 63-year-old male, married present, working as a retail salesperson. Located in NJ.",retail salesperson,no,0,not_college,not_college,True,4084,226,,not_college
+114,"A 40-year-old female, married present, working as a laborer or freight stock or material mover. Located in FL.",laborer or freight stock or material mover,no,0,college,not_college,False,3214,98,,not_college
+115,"A 20-year-old female, never married, working as a janitor or building cleaner. Located in PA.",janitor or building cleaner,no,0,not_college,not_college,True,2897,71,,not_college
+116,"A 38-year-old male, married present, working as a retail salesperson. Located in WA.",retail salesperson,no,0,college,not_college,False,3342,124,,not_college
+117,"A 46-year-old male, never married, working as a electrician. Located in FL.",electrician,no,0,not_college,not_college,True,3222,103,,not_college
+118,"A 27-year-old female, married present, working as a first line supervisor of non retail sales worker. Located in AZ.",first line supervisor of non retail sales worker,maybe,2,college,not_college,False,4187,235,,not_college
+119,"A 52-year-old female, never married, working as a office clerk general. Located in CA.",office clerk general,no,0,not_college,not_college,True,4037,215,,not_college
+120,"A 59-year-old male, married present, working as a registered nurse. Located in TX.",registered nurse,yes,1,college,college,True,3087,88,,college
+121,"A 46-year-old female, never married, working as a bookkeeping accounting or auditing clerk. Located in AZ.",bookkeeping accounting or auditing clerk,no,0,college,not_college,False,3741,166,,not_college
+122,"A 39-year-old female, married present, working as a manager. Located in OK.",manager,maybe,2,not_college,college,False,3079,91,,college
+123,"A 46-year-old male, married present, working as a postsecondary teacher. Located in NY.",postsecondary teacher,yes,1,college,college,True,3156,94,,college
+124,"A 19-year-old female, never married, working as a construction laborer. Located in MO.",construction laborer,no,0,not_college,not_college,True,3039,86,,not_college
+125,"A 55-year-old female, married present, working as a cashier. Located in PA.",cashier,no,0,not_college,not_college,True,3309,112,,not_college
+126,"A 47-year-old female, married present, working as a carpenter. Located in CA.",carpenter,no,0,not_college,not_college,True,3763,184,,not_college
+127,"A 60-year-old male, never married, working as a physician. Located in TX.",physician,yes,1,college,college,True,3249,108,,college
+128,"A 43-year-old female, married present, working as a cashier. Located in GA.",cashier,no,0,not_college,not_college,True,3879,197,,not_college
+129,"A 55-year-old male, divorced, working as a miscellaneous agricultural worker. Located in DE.",miscellaneous agricultural worker,no,0,not_college,not_college,True,2953,67,,not_college
+130,"A 62-year-old female, married present, working as a accountant or auditor. Located in PR.",accountant or auditor,yes,1,college,college,True,3278,121,,college
+131,"A 58-year-old male, married present, working as a customer service representative. Located in AR.",customer service representative,no,0,not_college,not_college,True,3288,114,,not_college
+132,"A 48-year-old female, married present, working as a maintenance or repair worker general. Located in NM.",maintenance or repair worker general,no,0,not_college,not_college,True,3076,96,,not_college
+133,"A 28-year-old male, married present, working as a real estate broker or sales agent. Located in CA.",real estate broker or sales agent,maybe,2,not_college,college,False,4264,240,,college
+134,"A 21-year-old male, never married, working as a first line supervisor of retail sales worker. Located in CA.",first line supervisor of retail sales worker,maybe,2,college,not_college,False,4168,232,,not_college
+135,"A 56-year-old male, married present, working as a maid or housekeeping cleaner. Located in CA.",maid or housekeeping cleaner,no,0,not_college,not_college,True,3175,102,,not_college
+136,"A 28-year-old male, never married, working as a janitor or building cleaner. Located in PA.",janitor or building cleaner,no,0,not_college,not_college,True,3042,93,,not_college
+137,"A 48-year-old female, divorced, working as a first line supervisor of retail sales worker. Located in TX.",first line supervisor of retail sales worker,maybe,2,not_college,not_college,True,4212,236,,not_college
+138,"A 33-year-old female, married present, working as a mathematical science occupation. Located in NC.",mathematical science occupation,yes,1,college,college,True,3159,99,,college
+139,"A 40-year-old male, married present, working as a manager. Located in TN.",manager,maybe,2,college,college,True,3385,137,,college
+140,"A 74-year-old female, married present, working as a cashier. Located in TN.",cashier,no,0,not_college,not_college,True,3619,161,,not_college
+141,"A 55-year-old male, widowed, working as a janitor or building cleaner. Located in AZ.",janitor or building cleaner,no,0,not_college,not_college,True,3151,96,,not_college
+142,"A 35-year-old male, never married, working as a physician. Located in TX.",physician,yes,1,college,college,True,2992,71,,college
+143,"A 46-year-old female, married present, working as a customer service representative. Located in TX.",customer service representative,no,0,college,not_college,False,3322,127,,not_college
+144,"A 38-year-old female, married present, working as a property real estate or community association manager. Located in PA.",property real estate or community association manager,maybe,2,college,college,True,3367,125,,college
+145,"A 64-year-old female, never married, working as a computer support specialist. Located in AL.",computer support specialist,maybe,2,not_college,college,False,4220,238,,college
+146,"A 37-year-old female, never married, working as a retail salesperson. Located in KS.",retail salesperson,no,0,not_college,not_college,True,4130,233,,not_college
+147,"A 59-year-old female, divorced, working as a bus driver school. Located in IN.",bus driver school,no,0,not_college,not_college,True,3370,131,,not_college
+148,"A 45-year-old female, married present, working as a financial manager. Located in NY.",financial manager,yes,1,not_college,college,False,3073,84,,college
+149,"A 20-year-old female, never married, working as a childcare worker. Located in NY.",childcare worker,no,0,not_college,not_college,True,3134,95,,not_college
+150,"A 30-year-old male, married present, working as a software developer. Located in VA.",software developer,yes,1,not_college,college,False,3306,117,,college
+151,"A 32-year-old male, married present, working as a engineer. Located in LA.",engineer,yes,1,college,college,True,2943,73,,college
+152,"A 48-year-old male, divorced, working as a retail salesperson. Located in MO.",retail salesperson,no,0,college,not_college,False,3261,110,,not_college
+153,"A 42-year-old female, married present, working as a financial manager. Located in TX.",financial manager,yes,1,college,college,True,3011,81,,college
+154,"A 59-year-old female, never married, working as a cashier. Located in NY.",cashier,no,0,not_college,not_college,True,3314,121,,not_college
+155,"A 22-year-old male, never married, working as a stocker or order filler. Located in TX.",stocker or order filler,no,0,not_college,not_college,True,2951,67,,not_college
+156,"A 26-year-old male, married present, working as a computer systems analyst. Located in NC.",computer systems analyst,yes,1,college,college,True,3147,93,,college
+157,"A 59-year-old female, divorced, working as a medical or health services manager. Located in VA.",medical or health services manager,yes,1,college,college,True,3503,149,,college
+158,"A 53-year-old male, never married, working as a automotive service technician or mechanic. Located in PA.",automotive service technician or mechanic,no,0,college,not_college,False,3152,97,,not_college
+159,"A 62-year-old male, married present, working as a sales representative wholesale or manufacturing. Located in IL.",sales representative wholesale or manufacturing,maybe,2,not_college,college,False,4033,209,,college
+160,"A 45-year-old female, married present, working as a secretary or administrative assistant. Located in GA.",secretary or administrative assistant,no,0,not_college,college,False,4110,227,,college
+161,"A 44-year-old male, never married, working as a landscaping or groundskeeping worker. Located in NY.",landscaping or groundskeeping worker,no,0,not_college,not_college,True,2748,47,,not_college
+162,"A 49-year-old male, married present, working as a software developer. Located in FL.",software developer,yes,1,college,college,True,3764,180,,college
+163,"A 26-year-old male, never married, working as a sales representative wholesale or manufacturing. Located in PA.",sales representative wholesale or manufacturing,maybe,2,not_college,not_college,True,4891,329,,not_college
+164,"A 64-year-old male, married present, working as a customer service representative. Located in TX.",customer service representative,no,0,not_college,not_college,True,3626,168,,not_college
+165,"A 50-year-old male, married present, working as a receptionist or information clerk. Located in CA.",receptionist or information clerk,no,0,not_college,not_college,True,3938,212,,not_college
+166,"A 34-year-old female, never married, working as a human resources worker. Located in MA.",human resources worker,yes,1,college,college,True,3633,164,,college
+167,"A 54-year-old male, married present, working as a retail salesperson. Located in AL.",retail salesperson,no,0,not_college,not_college,True,3063,90,,not_college
+168,"A 38-year-old female, never married, working as a manager. Located in PA.",manager,maybe,2,college,college,True,3294,124,,college
+169,"A 29-year-old female, married present, working as a customer service representative. Located in WA.",customer service representative,no,0,not_college,not_college,True,3498,149,,not_college
+170,"A 57-year-old male, married present, working as a retail salesperson. Located in SC.",retail salesperson,no,0,not_college,not_college,True,3304,116,,not_college
+171,"A 54-year-old male, married present, working as a software developer. Located in MN.",software developer,yes,1,not_college,college,False,3214,108,,college
+172,"A 54-year-old male, married present, working as a courier or messenger. Located in MO.",courier or messenger,no,0,not_college,not_college,True,3118,104,,not_college
+173,"A 63-year-old male, never married, working as a clergy. Located in PA.",clergy,yes,1,not_college,college,False,4465,274,,college
+174,"A 35-year-old male, never married, working as a driver sales worker or truck driver. Located in MS.",driver sales worker or truck driver,no,0,not_college,not_college,True,3520,149,,not_college
+175,"A 56-year-old male, separated, working as a driver sales worker or truck driver. Located in CT.",driver sales worker or truck driver,no,0,not_college,not_college,True,3037,78,,not_college
+176,"A 51-year-old female, married present, working as a production worker. Located in WA.",production worker,no,0,not_college,not_college,True,3267,112,,not_college
+177,"A 26-year-old female, married present, working as a civil engineer. Located in AZ.",civil engineer,yes,1,college,college,True,3045,88,,college
+178,"A 36-year-old male, married present, working as a postsecondary teacher. Located in MD.",postsecondary teacher,yes,1,college,college,True,2986,67,,college
+179,"A 24-year-old female, never married, working as a childcare worker. Located in IA.",childcare worker,no,0,not_college,not_college,True,4940,349,,not_college
+180,"A 41-year-old female, married present, working as a computer support specialist. Located in WA.",computer support specialist,maybe,2,not_college,college,False,4094,227,,college
+181,"A 27-year-old female, never married, working as a driver sales worker or truck driver. Located in AZ.",driver sales worker or truck driver,no,0,college,not_college,False,3003,71,,not_college
+182,"A 33-year-old male, never married, working as a project management specialist. Located in CO.",project management specialist,yes,1,not_college,college,False,3235,110,,college
+183,"A 34-year-old male, married present, working as a computer support specialist. Located in PA.",computer support specialist,maybe,2,college,college,True,3592,160,,college
+184,"A 72-year-old male, married present, working as a janitor or building cleaner. Located in VA.",janitor or building cleaner,no,0,not_college,not_college,True,3439,136,,not_college
+185,"A 22-year-old male, never married, working as a laborer or freight stock or material mover. Located in MI.",laborer or freight stock or material mover,no,0,not_college,not_college,True,2928,69,,not_college
+186,"A 42-year-old female, divorced, working as a manager. Located in MO.",manager,maybe,2,college,college,True,3159,97,,college
+187,"A 48-year-old male, married present, working as a customer service representative. Located in OK.",customer service representative,no,0,not_college,not_college,True,3329,131,,not_college
+188,"A 19-year-old male, never married, working as a first line supervisor of retail sales worker. Located in ME.",first line supervisor of retail sales worker,maybe,2,not_college,not_college,True,3222,111,,not_college
+189,"A 43-year-old female, married present, working as a software developer. Located in WA.",software developer,yes,1,not_college,college,False,3580,157,,college
+190,"A 65-year-old female, widowed, working as a stocker or order filler. Located in OH.",stocker or order filler,no,0,not_college,not_college,True,3248,110,,not_college
+191,"A 57-year-old female, married present, working as a registered nurse. Located in WI.",registered nurse,yes,1,college,college,True,3081,95,,college
+192,"A 34-year-old female, never married, working as a postsecondary teacher. Located in MD.",postsecondary teacher,yes,1,college,college,True,3026,81,,college
+193,"A 63-year-old female, married present, working as a secondary school teacher. Located in AZ.",secondary school teacher,yes,1,college,college,True,3132,99,,college
+194,"A 45-year-old female, married present, working as a secretary or administrative assistant. Located in GA.",secretary or administrative assistant,no,0,not_college,not_college,True,4779,313,,not_college
+195,"A 57-year-old male, married present, working as a miscellaneous agricultural worker. Located in TX.",miscellaneous agricultural worker,no,0,not_college,not_college,True,3257,108,,not_college
+196,"A 57-year-old female, married present, working as a mathematical science occupation. Located in MA.",mathematical science occupation,yes,1,college,college,True,3669,164,,college
+197,"A 30-year-old female, divorced, working as a engineering technologist or technician. Located in TX.",engineering technologist or technician,maybe,2,college,college,True,3697,173,,college
+198,"A 46-year-old male, never married, working as a driver sales worker or truck driver. Located in LA.",driver sales worker or truck driver,no,0,not_college,not_college,True,2981,74,,not_college
+199,"A 70-year-old male, married present, working as a laborer or freight stock or material mover. Located in GA.",laborer or freight stock or material mover,no,0,not_college,not_college,True,2924,77,,not_college
+200,"A 27-year-old female, never married, working as a civil engineer. Located in CA.",civil engineer,yes,1,college,college,True,2836,54,,college
+201,"A 64-year-old female, divorced, working as a stocker or order filler. Located in MI.",stocker or order filler,no,0,not_college,not_college,True,3082,96,,not_college
+202,"A 57-year-old male, married present, working as a postsecondary teacher. Located in IL.",postsecondary teacher,yes,1,college,college,True,3117,92,,college
+203,"A 52-year-old female, married present, working as a customer service representative. Located in OH.",customer service representative,no,0,not_college,not_college,True,3617,168,,not_college
+204,"A 35-year-old male, married present, working as a engineer. Located in OK.",engineer,yes,1,college,college,True,2973,70,,college
+205,"A 61-year-old male, divorced, working as a sales representative of services. Located in CA.",sales representative of services,maybe,2,not_college,not_college,True,4411,277,,not_college
+206,"A 33-year-old female, never married, working as a engineering technologist or technician. Located in PA.",engineering technologist or technician,maybe,2,college,college,True,3714,166,,college
+207,"A 55-year-old male, never married, working as a cook. Located in NH.",cook,no,0,not_college,not_college,True,3099,91,,not_college
+208,"A 31-year-old female, never married, working as a computer occupation. Located in VA.",computer occupation,maybe,2,college,college,True,3331,131,,college
+209,"A 39-year-old female, married present, working as a elementary or middle school teacher. Located in ID.",elementary or middle school teacher,yes,1,college,college,True,3246,116,,college
+210,"A 36-year-old female, never married, working as a chief executive. Located in NJ.",chief executive,yes,1,not_college,college,False,3521,142,,college
+211,"A 30-year-old female, separated, working as a construction laborer. Located in FL.",construction laborer,no,0,not_college,not_college,True,3418,136,,not_college
+212,"A 30-year-old female, married present, working as a human resources worker. Located in GA.",human resources worker,yes,1,college,college,True,3209,113,,college
+213,"A 63-year-old female, married present, working as a sales representative wholesale or manufacturing. Located in MN.",sales representative wholesale or manufacturing,maybe,2,college,not_college,False,4197,240,,not_college
+214,"A 36-year-old male, married present, working as a cook. Located in CA.",cook,no,0,not_college,not_college,True,3726,177,,not_college
+215,"A 42-year-old male, never married, working as a driver sales worker or truck driver. Located in NY.",driver sales worker or truck driver,no,0,not_college,not_college,True,3206,101,,not_college
+216,"A 66-year-old male, married present, working as a elementary or middle school teacher. Located in OH.",elementary or middle school teacher,yes,1,college,college,True,3434,137,,college
+217,"A 55-year-old female, married present, working as a first line supervisor of retail sales worker. Located in IA.",first line supervisor of retail sales worker,maybe,2,college,not_college,False,3951,206,,not_college
+218,"A 48-year-old female, married present, working as a financial manager. Located in MD.",financial manager,yes,1,college,college,True,3063,82,,college
+219,"A 47-year-old male, never married, working as a physician. Located in MN.",physician,yes,1,not_college,college,False,3033,86,,college
+220,"A 60-year-old male, separated, working as a engineering technologist or technician. Located in FL.",engineering technologist or technician,maybe,2,not_college,college,False,3588,161,,college
+221,"A 43-year-old female, married present, working as a insurance sales agent. Located in IL.",insurance sales agent,maybe,2,college,college,True,3768,183,,college
+222,"A 53-year-old male, never married, working as a first line supervisor of non retail sales worker. Located in TX.",first line supervisor of non retail sales worker,maybe,2,college,not_college,False,3944,203,,not_college
+223,"A 30-year-old female, never married, working as a automotive service technician or mechanic. Located in SC.",automotive service technician or mechanic,no,0,not_college,not_college,True,3112,89,,not_college
+224,"A 53-year-old male, married present, working as a accountant or auditor. Located in OH.",accountant or auditor,yes,1,college,college,True,2987,81,,college
+225,"A 42-year-old male, married present, working as a licensed practical or licensed vocational nurse. Located in ID.",licensed practical or licensed vocational nurse,maybe,2,college,not_college,False,3275,115,,not_college
+226,"A 23-year-old male, never married, working as a physician. Located in IN.",physician,yes,1,not_college,college,False,3129,100,,college
+227,"A 34-year-old female, married present, working as a business operations specialist. Located in NJ.",business operations specialist,maybe,2,not_college,college,False,3249,115,,college
+228,"A 36-year-old female, never married, working as a personal financial advisor. Located in LA.",personal financial advisor,yes,1,college,college,True,3059,97,,college
+229,"A 25-year-old male, never married, working as a sales representative wholesale or manufacturing. Located in MA.",sales representative wholesale or manufacturing,maybe,2,not_college,not_college,True,4290,251,,not_college
+230,"A 39-year-old male, married present, working as a physician. Located in MI.",physician,yes,1,college,college,True,2949,74,,college
+231,"A 38-year-old female, never married, working as a stocker or order filler. Located in TX.",stocker or order filler,no,0,not_college,not_college,True,3137,95,,not_college
+232,"A 45-year-old female, never married, working as a first line supervisor of office or administrative support worker. Located in NJ.",first line supervisor of office or administrative support worker,maybe,2,not_college,not_college,True,4096,232,,not_college
+233,"A 71-year-old male, married present, working as a elementary or middle school teacher. Located in LA.",elementary or middle school teacher,yes,1,college,college,True,3103,81,,college
+234,"A 59-year-old male, divorced, working as a office clerk general. Located in GA.",office clerk general,no,0,not_college,not_college,True,3335,123,,not_college
+235,"A 40-year-old male, never married, working as a manager. Located in TX.",manager,maybe,2,not_college,college,False,3339,132,,college
+236,"A 29-year-old male, never married, working as a physician. Located in FL.",physician,yes,1,not_college,college,False,2952,74,,college
+237,"A 26-year-old male, never married, working as a driver sales worker or truck driver. Located in FL.",driver sales worker or truck driver,no,0,not_college,not_college,True,3133,93,,not_college
+238,"A 35-year-old female, married present, working as a maid or housekeeping cleaner. Located in NY.",maid or housekeeping cleaner,no,0,college,not_college,False,3546,147,,not_college
+239,"A 68-year-old female, divorced, working as a nursing assistant. Located in IN.",nursing assistant,no,0,not_college,not_college,True,3150,89,,not_college
+240,"A 61-year-old female, widowed, working as a carpenter. Located in PA.",carpenter,no,0,not_college,not_college,True,3192,103,,not_college
+241,"A 48-year-old female, married present, working as a retail salesperson. Located in IL.",retail salesperson,no,0,college,not_college,False,3397,131,,not_college
+242,"A 28-year-old male, never married, working as a bookkeeping accounting or auditing clerk. Located in OH.",bookkeeping accounting or auditing clerk,no,0,not_college,not_college,True,4906,335,,not_college
+243,"A 21-year-old male, never married, working as a civil engineer. Located in MA.",civil engineer,yes,1,college,college,True,2812,64,,college
+244,"A 41-year-old male, never married, working as a computer occupation. Located in GA.",computer occupation,maybe,2,college,college,True,3665,169,,college
+245,"A 64-year-old male, married present, working as a police officer. Located in GA.",police officer,maybe,2,college,not_college,False,3768,183,,not_college
+246,"A 35-year-old male, never married, working as a software developer. Located in NC.",software developer,yes,1,college,college,True,3864,190,,college
+247,"A 65-year-old male, married present, working as a software developer. Located in TX.",software developer,yes,1,not_college,college,False,3446,139,,college
+248,"A 59-year-old male, married present, working as a project management specialist. Located in PA.",project management specialist,yes,1,college,college,True,3261,119,,college
+249,"A 41-year-old female, married present, working as a computer occupation. Located in GA.",computer occupation,maybe,2,college,college,True,4363,261,,college
+250,"A 50-year-old female, married present, working as a maid or housekeeping cleaner. Located in CA.",maid or housekeeping cleaner,no,0,not_college,not_college,True,3215,100,,not_college
+251,"A 30-year-old male, married present, working as a industrial truck or tractor operator. Located in NY.",industrial truck or tractor operator,no,0,college,not_college,False,3596,163,,not_college
+252,"A 41-year-old male, married present, working as a miscellaneous agricultural worker. Located in MA.",miscellaneous agricultural worker,no,0,not_college,not_college,True,3803,183,,not_college
+253,"A 53-year-old female, married present, working as a electrician. Located in LA.",electrician,no,0,not_college,not_college,True,3165,102,,not_college
+254,"A 35-year-old male, married present, working as a postsecondary teacher. Located in NY.",postsecondary teacher,yes,1,college,college,True,3012,75,,college
+255,"A 33-year-old male, never married, working as a computer support specialist. Located in AZ.",computer support specialist,maybe,2,college,college,True,3473,137,,college
+256,"A 50-year-old male, married present, working as a cashier. Located in NJ.",cashier,no,0,college,not_college,False,3109,90,,not_college
+257,"A 56-year-old male, married present, working as a licensed practical or licensed vocational nurse. Located in UT.",licensed practical or licensed vocational nurse,maybe,2,not_college,not_college,True,3545,148,,not_college
+258,"A 30-year-old male, never married, working as a business operations specialist. Located in CA.",business operations specialist,maybe,2,college,college,True,3053,88,,college
+259,"A 44-year-old male, married present, working as a engineer. Located in NC.",engineer,yes,1,college,college,True,3609,168,,college
+260,"A 19-year-old male, never married, working as a personal financial advisor. Located in MS.",personal financial advisor,yes,1,not_college,college,False,3526,147,,college
+261,"A 25-year-old male, never married, working as a cashier. Located in CT.",cashier,no,0,not_college,not_college,True,3561,156,,not_college
+262,"A 32-year-old male, married present, working as a electrician. Located in TN.",electrician,no,0,not_college,not_college,True,3464,143,,not_college
+263,"A 43-year-old female, married present, working as a laborer or freight stock or material mover. Located in NV.",laborer or freight stock or material mover,no,0,not_college,not_college,True,3166,105,,not_college
+264,"A 48-year-old female, divorced, working as a accountant or auditor. Located in PA.",accountant or auditor,yes,1,college,college,True,3124,95,,college
+265,"A 72-year-old female, divorced, working as a first line supervisor of office or administrative support worker. Located in NE.",first line supervisor of office or administrative support worker,maybe,2,not_college,college,False,4646,297,,college
+266,"A 56-year-old female, married present, working as a teaching assistant. Located in CA.",teaching assistant,maybe,2,college,college,True,3373,131,,college
+267,"A 36-year-old male, married present, working as a teacher or instructor. Located in IN.",teacher or instructor,yes,1,college,college,True,3014,84,,college
+268,"A 32-year-old male, married present, working as a nursing assistant. Located in NJ.",nursing assistant,no,0,not_college,not_college,True,3575,157,,not_college
+269,"A 82-year-old male, divorced, working as a shipping receiving or inventory clerk. Located in FL.",shipping receiving or inventory clerk,no,0,not_college,not_college,True,3152,98,,not_college
+270,"A 27-year-old male, never married, working as a childcare worker. Located in CA.",childcare worker,no,0,college,not_college,False,3905,199,,not_college
+271,"A 26-year-old male, never married, working as a laborer or freight stock or material mover. Located in IN.",laborer or freight stock or material mover,no,0,not_college,not_college,True,3048,87,,not_college
+272,"A 28-year-old female, married present, working as a accountant or auditor. Located in TX.",accountant or auditor,yes,1,college,college,True,3069,96,,college
+273,"A 48-year-old female, married present, working as a teacher or instructor. Located in OR.",teacher or instructor,yes,1,college,college,True,3339,124,,college
+274,"A 51-year-old male, never married, working as a customer service representative. Located in TX.",customer service representative,no,0,not_college,not_college,True,3128,103,,not_college
+275,"A 58-year-old male, married present, working as a sales representative wholesale or manufacturing. Located in MD.",sales representative wholesale or manufacturing,maybe,2,college,college,True,4789,320,,college
+276,"A 62-year-old male, married present, working as a production worker. Located in AZ.",production worker,no,0,college,not_college,False,3150,95,,not_college
+277,"A 41-year-old female, married present, working as a elementary or middle school teacher. Located in AL.",elementary or middle school teacher,yes,1,college,college,True,3215,110,,college
+278,"A 50-year-old male, married present, working as a market research analyst or marketing specialist. Located in NE.",market research analyst or marketing specialist,yes,1,not_college,college,False,4304,254,,college
+279,"A 60-year-old female, married present, working as a first line supervisor of non retail sales worker. Located in CA.",first line supervisor of non retail sales worker,maybe,2,college,college,True,4248,250,,college
+280,"A 68-year-old male, married present, working as a first line supervisor of retail sales worker. Located in NC.",first line supervisor of retail sales worker,maybe,2,not_college,college,False,4213,236,,college
+281,"A 59-year-old female, married present, working as a teacher or instructor. Located in TX.",teacher or instructor,yes,1,college,college,True,3570,151,,college
+282,"A 50-year-old male, married present, working as a courier or messenger. Located in KY.",courier or messenger,no,0,not_college,not_college,True,3318,118,,not_college
+283,"A 35-year-old female, married present, working as a customer service representative. Located in PA.",customer service representative,no,0,not_college,not_college,True,3909,202,,not_college
+284,"A 41-year-old female, married present, working as a financial manager. Located in IL.",financial manager,yes,1,college,college,True,3854,189,,college
+285,"A 27-year-old female, never married, working as a real estate broker or sales agent. Located in TX.",real estate broker or sales agent,maybe,2,college,college,True,4820,327,,college
+286,"A 61-year-old female, never married, working as a education or childcare administrator. Located in WI.",education or childcare administrator,yes,1,not_college,college,False,3715,175,,college
+287,"A 66-year-old female, divorced, working as a office clerk general. Located in NH.",office clerk general,no,0,college,not_college,False,3147,96,,not_college
+288,"A 48-year-old female, married present, working as a stocker or order filler. Located in MI.",stocker or order filler,no,0,not_college,not_college,True,3221,114,,not_college
+289,"A 52-year-old male, married present, working as a janitor or building cleaner. Located in MD.",janitor or building cleaner,no,0,not_college,not_college,True,3384,127,,not_college
+290,"A 54-year-old female, never married, working as a cashier. Located in TN.",cashier,no,0,college,not_college,False,3140,94,,not_college
+291,"A 28-year-old female, never married, working as a accountant or auditor. Located in CA.",accountant or auditor,yes,1,college,college,True,3420,136,,college
+292,"A 64-year-old female, divorced, working as a financial manager. Located in WI.",financial manager,yes,1,not_college,college,False,3088,92,,college
+293,"A 48-year-old male, never married, working as a manager. Located in NY.",manager,maybe,2,not_college,college,False,3125,93,,college
+294,"A 28-year-old male, never married, working as a first line supervisor of retail sales worker. Located in DE.",first line supervisor of retail sales worker,maybe,2,not_college,college,False,3983,217,,college
+295,"A 56-year-old male, married present, working as a software developer. Located in TX.",software developer,yes,1,college,college,True,3713,176,,college
+296,"A 34-year-old female, married present, working as a mathematical science occupation. Located in MI.",mathematical science occupation,yes,1,college,college,True,3499,144,,college
+297,"A 52-year-old male, never married, working as a courier or messenger. Located in NY.",courier or messenger,no,0,not_college,not_college,True,3011,85,,not_college
+298,"A 59-year-old female, divorced, working as a physician. Located in MS.",physician,yes,1,college,college,True,3212,114,,college
+299,"A 19-year-old female, never married, working as a painter or paperhanger. Located in IL.",painter or paperhanger,no,0,not_college,not_college,True,3279,111,,not_college
+300,"A 19-year-old female, never married, working as a maintenance or repair worker general. Located in FL.",maintenance or repair worker general,no,0,not_college,not_college,True,3434,137,,not_college
+301,"A 34-year-old female, divorced, working as a childcare worker. Located in FL.",childcare worker,no,0,not_college,not_college,True,3001,84,,not_college
+302,"A 29-year-old male, never married, working as a customer service representative. Located in TN.",customer service representative,no,0,not_college,not_college,True,4895,337,,not_college
+303,"A 54-year-old male, married present, working as a first line supervisor of office or administrative support worker. Located in MN.",first line supervisor of office or administrative support worker,maybe,2,college,college,True,4657,297,,college
+304,"A 36-year-old female, divorced, working as a assembler or fabricator. Located in CO.",assembler or fabricator,no,0,not_college,not_college,True,3130,97,,not_college
+305,"A 20-year-old female, never married, working as a cashier. Located in NC.",cashier,no,0,not_college,not_college,True,3501,142,,not_college
+306,"A 60-year-old female, married present, working as a painter or paperhanger. Located in CT.",painter or paperhanger,no,0,not_college,not_college,True,3750,178,,not_college
+307,"A 52-year-old male, married present, working as a retail salesperson. Located in CA.",retail salesperson,no,0,college,not_college,False,4008,208,,not_college
+308,"A 35-year-old female, married present, working as a first line supervisor of non retail sales worker. Located in NC.",first line supervisor of non retail sales worker,maybe,2,college,college,True,4327,250,,college
+309,"A 54-year-old male, divorced, working as a general or operations manager. Located in HI.",general or operations manager,maybe,2,not_college,college,False,3923,200,,college
+310,"A 58-year-old male, divorced, working as a clergy. Located in IL.",clergy,yes,1,college,college,True,3490,144,,college
+311,"A 40-year-old female, never married, working as a management analyst. Located in SC.",management analyst,yes,1,college,college,True,3437,136,,college
+312,"A 44-year-old male, married present, working as a construction laborer. Located in SD.",construction laborer,no,0,not_college,not_college,True,3487,141,,not_college
+313,"A 18-year-old male, never married, working as a customer service representative. Located in MI.",customer service representative,no,0,college,not_college,False,3243,116,,not_college
+314,"A 47-year-old female, married present, working as a maid or housekeeping cleaner. Located in CA.",maid or housekeeping cleaner,no,0,not_college,not_college,True,3007,73,,not_college
+315,"A 19-year-old male, never married, working as a industrial truck or tractor operator. Located in TX.",industrial truck or tractor operator,no,0,not_college,not_college,True,2927,62,,not_college
+316,"A 64-year-old female, married present, working as a first line supervisor of non retail sales worker. Located in SC.",first line supervisor of non retail sales worker,maybe,2,college,not_college,False,4037,220,,not_college
+317,"A 29-year-old female, never married, working as a sales representative wholesale or manufacturing. Located in MI.",sales representative wholesale or manufacturing,maybe,2,not_college,not_college,True,3988,215,,not_college
+318,"A 41-year-old male, married present, working as a civil engineer. Located in CO.",civil engineer,yes,1,college,college,True,3040,85,,college
+319,"A 39-year-old female, never married, working as a sales representative wholesale or manufacturing. Located in TX.",sales representative wholesale or manufacturing,maybe,2,not_college,not_college,True,3966,201,,not_college
+320,"A 35-year-old male, married present, working as a assembler or fabricator. Located in MI.",assembler or fabricator,no,0,not_college,not_college,True,3280,118,,not_college
+321,"A 38-year-old female, married present, working as a cashier. Located in IN.",cashier,no,0,not_college,not_college,True,3014,83,,not_college
+322,"A 35-year-old male, never married, working as a accountant or auditor. Located in PA.",accountant or auditor,yes,1,college,college,True,3488,152,,college
+323,"A 64-year-old female, never married, working as a driver sales worker or truck driver. Located in CO.",driver sales worker or truck driver,no,0,not_college,not_college,True,3149,99,,not_college
+324,"A 23-year-old male, never married, working as a construction manager. Located in CA.",construction manager,yes,1,college,college,True,5008,351,,college
+325,"A 26-year-old female, married present, working as a cook. Located in PA.",cook,no,0,college,not_college,False,3768,183,,not_college
+326,"A 20-year-old female, never married, working as a cashier. Located in OH.",cashier,no,0,not_college,not_college,True,3054,80,,not_college
+327,"A 45-year-old male, divorced, working as a sales representative wholesale or manufacturing. Located in TX.",sales representative wholesale or manufacturing,maybe,2,college,not_college,False,4065,222,,not_college
+328,"A 36-year-old female, never married, working as a education or childcare administrator. Located in ME.",education or childcare administrator,yes,1,not_college,college,False,3763,177,,college
+329,"A 58-year-old male, never married, working as a industrial truck or tractor operator. Located in NY.",industrial truck or tractor operator,no,0,not_college,not_college,True,3727,179,,not_college
+330,"A 36-year-old female, never married, working as a landscaping or groundskeeping worker. Located in CA.",landscaping or groundskeeping worker,no,0,not_college,not_college,True,3928,203,,not_college
+331,"A 83-year-old female, divorced, working as a laborer or freight stock or material mover. Located in FL.",laborer or freight stock or material mover,no,0,not_college,not_college,True,2913,63,,not_college
+332,"A 47-year-old female, divorced, working as a automotive service technician or mechanic. Located in OH.",automotive service technician or mechanic,no,0,not_college,not_college,True,4036,222,,not_college
+333,"A 62-year-old female, married present, working as a physician. Located in CA.",physician,yes,1,college,college,True,2902,70,,college
+334,"A 46-year-old female, married present, working as a sales representative wholesale or manufacturing. Located in NY.",sales representative wholesale or manufacturing,maybe,2,college,not_college,False,4172,239,,not_college
+335,"A 62-year-old female, married present, working as a first line supervisor of office or administrative support worker. Located in IL.",first line supervisor of office or administrative support worker,maybe,2,college,college,True,4545,288,,college
+336,"A 29-year-old male, never married, working as a driver sales worker or truck driver. Located in TX.",driver sales worker or truck driver,no,0,not_college,not_college,True,3538,146,,not_college
+337,"A 62-year-old female, married present, working as a driver sales worker or truck driver. Located in IL.",driver sales worker or truck driver,no,0,not_college,not_college,True,3042,85,,not_college
+338,"A 63-year-old female, never married, working as a management analyst. Located in VA.",management analyst,yes,1,not_college,college,False,2997,85,,college
+339,"A 60-year-old male, married present, working as a accountant or auditor. Located in OH.",accountant or auditor,yes,1,not_college,college,False,3271,108,,college
+340,"A 21-year-old female, never married, working as a construction laborer. Located in VA.",construction laborer,no,0,not_college,not_college,True,3288,122,,not_college
+341,"A 48-year-old male, married present, working as a personal care aide. Located in GA.",personal care aide,no,0,not_college,not_college,True,3509,149,,not_college
+342,"A 36-year-old female, divorced, working as a first line supervisor of retail sales worker. Located in FL.",first line supervisor of retail sales worker,maybe,2,college,not_college,False,3670,166,,not_college
+343,"A 33-year-old female, married present, working as a elementary or middle school teacher. Located in IN.",elementary or middle school teacher,yes,1,college,college,True,3261,113,,college
+344,"A 23-year-old female, never married, working as a secretary or administrative assistant. Located in NE.",secretary or administrative assistant,no,0,college,college,True,4766,325,,college
+345,"A 40-year-old female, married present, working as a accountant or auditor. Located in VA.",accountant or auditor,yes,1,college,college,True,3449,142,,college
+346,"A 18-year-old male, never married, working as a driver sales worker or truck driver. Located in CA.",driver sales worker or truck driver,no,0,not_college,not_college,True,3005,75,,not_college
+347,"A 29-year-old female, never married, working as a production worker. Located in TX.",production worker,no,0,not_college,not_college,True,3619,173,,not_college
+348,"A 61-year-old female, married present, working as a bookkeeping accounting or auditing clerk. Located in MD.",bookkeeping accounting or auditing clerk,no,0,not_college,college,False,4296,253,,college
+349,"A 53-year-old male, divorced, working as a general or operations manager. Located in ID.",general or operations manager,maybe,2,not_college,college,False,3668,167,,college
+350,"A 38-year-old female, married present, working as a secretary or administrative assistant. Located in MS.",secretary or administrative assistant,no,0,not_college,not_college,True,3095,88,,not_college
+351,"A 64-year-old female, divorced, working as a customer service representative. Located in CT.",customer service representative,no,0,not_college,not_college,True,3287,120,,not_college
+352,"A 35-year-old male, married present, working as a human resources worker. Located in NC.",human resources worker,yes,1,college,college,True,3444,131,,college
+353,"A 43-year-old female, married present, working as a security guard or gambling surveillance officer. Located in PA.",security guard or gambling surveillance officer,no,0,college,not_college,False,3591,157,,not_college
+354,"A 48-year-old female, never married, working as a manager. Located in NY.",manager,maybe,2,not_college,college,False,3666,164,,college
+355,"A 51-year-old female, married present, working as a stocker or order filler. Located in CA.",stocker or order filler,no,0,not_college,not_college,True,3703,169,,not_college
+356,"A 46-year-old female, married present, working as a manager. Located in NY.",manager,maybe,2,college,college,True,3267,109,,college
+357,"A 53-year-old male, never married, working as a office clerk general. Located in PA.",office clerk general,no,0,college,not_college,False,3135,96,,not_college
+358,"A 49-year-old female, married present, working as a general or operations manager. Located in OH.",general or operations manager,maybe,2,college,college,True,3113,91,,college
+359,"A 21-year-old female, never married, working as a sales representative of services. Located in MI.",sales representative of services,maybe,2,not_college,college,False,5886,464,,college
+360,"A 39-year-old male, married present, working as a miscellaneous agricultural worker. Located in SD.",miscellaneous agricultural worker,no,0,not_college,not_college,True,3079,96,,not_college
+361,"A 42-year-old female, married present, working as a secretary or administrative assistant. Located in CT.",secretary or administrative assistant,no,0,college,college,True,3948,202,,college
+362,"A 29-year-old female, married present, working as a manager. Located in CA.",manager,maybe,2,not_college,college,False,3333,128,,college
+363,"A 38-year-old male, never married, working as a human resources worker. Located in FL.",human resources worker,yes,1,college,college,True,4164,248,,college
+364,"A 28-year-old female, married present, working as a software developer. Located in FL.",software developer,yes,1,college,college,True,3395,147,,college
+365,"A 33-year-old male, divorced, working as a computer systems analyst. Located in GA.",computer systems analyst,yes,1,not_college,college,False,3063,85,,college
+366,"A 45-year-old female, never married, working as a receptionist or information clerk. Located in IL.",receptionist or information clerk,no,0,not_college,not_college,True,3272,111,,not_college
+367,"A 52-year-old male, never married, working as a first line supervisor of production or operating worker. Located in FL.",first line supervisor of production or operating worker,maybe,2,college,not_college,False,3375,125,,not_college
+368,"A 38-year-old male, never married, working as a sales representative wholesale or manufacturing. Located in SC.",sales representative wholesale or manufacturing,maybe,2,not_college,not_college,True,3723,176,,not_college
+369,"A 40-year-old female, never married, working as a cashier. Located in OH.",cashier,no,0,not_college,not_college,True,3900,205,,not_college
+370,"A 46-year-old female, never married, working as a education or childcare administrator. Located in CA.",education or childcare administrator,yes,1,college,college,True,3655,168,,college
+371,"A 51-year-old female, divorced, working as a licensed practical or licensed vocational nurse. Located in FL.",licensed practical or licensed vocational nurse,maybe,2,not_college,not_college,True,3503,148,,not_college
+372,"A 32-year-old female, never married, working as a property real estate or community association manager. Located in GA.",property real estate or community association manager,maybe,2,college,college,True,3856,196,,college
+373,"A 63-year-old male, married present, working as a project management specialist. Located in KY.",project management specialist,yes,1,college,college,True,3070,86,,college
+374,"A 29-year-old male, never married, working as a clergy. Located in CA.",clergy,yes,1,not_college,college,False,3856,199,,college
+375,"A 46-year-old male, never married, working as a stocker or order filler. Located in FL.",stocker or order filler,no,0,college,not_college,False,3555,150,,not_college
+376,"A 39-year-old female, divorced, working as a construction laborer. Located in OK.",construction laborer,no,0,not_college,not_college,True,3564,148,,not_college
+377,"A 84-year-old female, widowed, working as a secretary or administrative assistant. Located in WV.",secretary or administrative assistant,no,0,college,not_college,False,3175,101,,not_college
+378,"A 21-year-old female, never married, working as a waiter or waitress. Located in PA.",waiter or waitress,no,0,not_college,not_college,True,3134,100,,not_college
+379,"A 27-year-old female, married present, working as a computer occupation. Located in CA.",computer occupation,maybe,2,not_college,college,False,3034,79,,college
+380,"A 22-year-old male, never married, working as a construction laborer. Located in NE.",construction laborer,no,0,not_college,not_college,True,3407,134,,not_college
+381,"A 27-year-old female, married present, working as a personal care aide. Located in TX.",personal care aide,no,0,not_college,not_college,True,3313,122,,not_college
+382,"A 32-year-old female, married present, working as a laborer or freight stock or material mover. Located in MT.",laborer or freight stock or material mover,no,0,not_college,not_college,True,3341,122,,not_college
+383,"A 63-year-old male, divorced, working as a customer service representative. Located in WI.",customer service representative,no,0,not_college,not_college,True,3044,87,,not_college
+384,"A 20-year-old female, never married, working as a cashier. Located in CA.",cashier,no,0,college,not_college,False,3046,94,,not_college
+385,"A 32-year-old female, married present, working as a secretary or administrative assistant. Located in CA.",secretary or administrative assistant,no,0,college,college,True,4342,259,,college
+386,"A 74-year-old male, never married, working as a accountant or auditor. Located in CA.",accountant or auditor,yes,1,college,college,True,3390,124,,college
+387,"A 28-year-old female, married present, working as a management analyst. Located in PA.",management analyst,yes,1,college,college,True,3088,85,,college
+388,"A 49-year-old male, never married, working as a accountant or auditor. Located in MA.",accountant or auditor,yes,1,college,college,True,3460,140,,college
+389,"A 20-year-old female, never married, working as a production worker. Located in OH.",production worker,no,0,not_college,not_college,True,3582,160,,not_college
+390,"A 56-year-old male, divorced, working as a personal financial advisor. Located in CA.",personal financial advisor,yes,1,not_college,college,False,3077,92,,college
+391,"A 53-year-old female, married present, working as a security guard or gambling surveillance officer. Located in NJ.",security guard or gambling surveillance officer,no,0,college,not_college,False,3425,128,,not_college
+392,"A 40-year-old male, never married, working as a electrician. Located in MD.",electrician,no,0,not_college,not_college,True,3193,107,,not_college
+393,"A 44-year-old female, married present, working as a teacher or instructor. Located in WA.",teacher or instructor,yes,1,college,college,True,3321,120,,college
+394,"A 31-year-old female, married present, working as a production worker. Located in SC.",production worker,no,0,not_college,not_college,True,3430,138,,not_college
+395,"A 39-year-old male, married present, working as a personal care aide. Located in CA.",personal care aide,no,0,not_college,not_college,True,3219,114,,not_college
+396,"A 50-year-old male, married present, working as a manager. Located in SC.",manager,maybe,2,college,college,True,3551,147,,college
+397,"A 41-year-old female, divorced, working as a maintenance or repair worker general. Located in TN.",maintenance or repair worker general,no,0,not_college,not_college,True,3294,123,,not_college
+398,"A 45-year-old male, married present, working as a engineer. Located in CA.",engineer,yes,1,college,college,True,3316,119,,college
+399,"A 51-year-old female, married present, working as a market research analyst or marketing specialist. Located in UT.",market research analyst or marketing specialist,yes,1,college,college,True,2953,78,,college
+400,"A 34-year-old male, married present, working as a customer service representative. Located in CA.",customer service representative,no,0,not_college,not_college,True,4681,307,,not_college
+401,"A 48-year-old female, married present, working as a project management specialist. Located in NC.",project management specialist,yes,1,not_college,college,False,3334,131,,college
+402,"A 53-year-old male, married present, working as a assembler or fabricator. Located in MN.",assembler or fabricator,no,0,college,not_college,False,3346,127,,not_college
+403,"A 49-year-old female, married present, working as a financial manager. Located in NC.",financial manager,yes,1,college,college,True,2961,72,,college
+404,"A 73-year-old male, separated, working as a bookkeeping accounting or auditing clerk. Located in NY.",bookkeeping accounting or auditing clerk,no,0,college,not_college,False,4783,316,,not_college
+405,"A 57-year-old male, married present, working as a first line supervisor of retail sales worker. Located in CA.",first line supervisor of retail sales worker,maybe,2,college,college,True,5178,369,,college
+406,"A 40-year-old male, divorced, working as a retail salesperson. Located in AR.",retail salesperson,no,0,not_college,not_college,True,3320,120,,not_college
+407,"A 60-year-old male, married present, working as a first line supervisor of production or operating worker. Located in NJ.",first line supervisor of production or operating worker,maybe,2,not_college,college,False,4890,333,,college
+408,"A 41-year-old female, married present, working as a automotive service technician or mechanic. Located in CA.",automotive service technician or mechanic,no,0,not_college,not_college,True,3931,196,,not_college
+409,"A 22-year-old male, never married, working as a nursing assistant. Located in CA.",nursing assistant,no,0,not_college,not_college,True,3222,110,,not_college
+410,"A 49-year-old female, married present, working as a real estate broker or sales agent. Located in AZ.",real estate broker or sales agent,maybe,2,not_college,college,False,3708,176,,college
+411,"A 60-year-old female, divorced, working as a financial manager. Located in TX.",financial manager,yes,1,college,college,True,3112,94,,college
+412,"A 26-year-old male, married present, working as a stocker or order filler. Located in AL.",stocker or order filler,no,0,not_college,not_college,True,3273,124,,not_college
+413,"A 64-year-old female, married present, working as a management analyst. Located in MD.",management analyst,yes,1,college,college,True,3340,126,,college
+414,"A 56-year-old male, married present, working as a construction laborer. Located in NJ.",construction laborer,no,0,not_college,not_college,True,3169,100,,not_college
+415,"A 59-year-old male, married present, working as a cashier. Located in FL.",cashier,no,0,college,not_college,False,3365,121,,not_college
+416,"A 34-year-old female, married present, working as a financial manager. Located in CT.",financial manager,yes,1,college,college,True,2910,72,,college
+417,"A 34-year-old male, married present, working as a customer service representative. Located in NJ.",customer service representative,no,0,not_college,not_college,True,4100,228,,not_college
+418,"A 50-year-old female, married present, working as a manager. Located in CA.",manager,maybe,2,not_college,college,False,3387,122,,college
+419,"A 62-year-old female, married present, working as a driver sales worker or truck driver. Located in ME.",driver sales worker or truck driver,no,0,not_college,not_college,True,3643,167,,not_college
+420,"A 68-year-old female, married present, working as a nursing assistant. Located in IN.",nursing assistant,no,0,not_college,not_college,True,3149,106,,not_college
+421,"A 48-year-old female, married present, working as a software developer. Located in KY.",software developer,yes,1,college,college,True,3241,112,,college
+422,"A 38-year-old female, never married, working as a teaching assistant. Located in CT.",teaching assistant,maybe,2,college,college,True,3495,140,,college
+423,"A 62-year-old male, married present, working as a software developer. Located in MO.",software developer,yes,1,not_college,college,False,3309,125,,college
+424,"A 41-year-old female, married present, working as a teaching assistant. Located in NY.",teaching assistant,maybe,2,college,college,True,3519,142,,college
+425,"A 45-year-old female, married present, working as a police officer. Located in FL.",police officer,maybe,2,not_college,college,False,3758,179,,college
+426,"A 60-year-old male, divorced, working as a business operations specialist. Located in FL.",business operations specialist,maybe,2,not_college,college,False,3715,172,,college
+427,"A 55-year-old male, married present, working as a civil engineer. Located in AL.",civil engineer,yes,1,college,college,True,3233,106,,college
+428,"A 53-year-old male, divorced, working as a manager. Located in IN.",manager,maybe,2,not_college,college,False,3105,91,,college
+429,"A 50-year-old female, married present, working as a registered nurse. Located in TX.",registered nurse,yes,1,college,college,True,2969,75,,college
+430,"A 48-year-old male, divorced, working as a general or operations manager. Located in NY.",general or operations manager,maybe,2,college,college,True,3468,142,,college
+431,"A 59-year-old male, never married, working as a courier or messenger. Located in NC.",courier or messenger,no,0,not_college,not_college,True,3206,112,,not_college
+432,"A 29-year-old female, married present, working as a computer systems analyst. Located in IA.",computer systems analyst,yes,1,college,college,True,3148,89,,college
+433,"A 63-year-old female, married present, working as a engineer. Located in IL.",engineer,yes,1,college,college,True,2934,72,,college
+434,"A 41-year-old male, married present, working as a elementary or middle school teacher. Located in CA.",elementary or middle school teacher,yes,1,college,college,True,3423,133,,college
+435,"A 37-year-old male, never married, working as a customer service representative. Located in CA.",customer service representative,no,0,not_college,not_college,True,3887,200,,not_college
+436,"A 63-year-old male, never married, working as a physician. Located in CA.",physician,yes,1,college,college,True,2961,78,,college
+437,"A 42-year-old male, married present, working as a clergy. Located in CT.",clergy,yes,1,college,college,True,3574,158,,college
+438,"A 41-year-old male, married present, working as a laborer or freight stock or material mover. Located in WA.",laborer or freight stock or material mover,no,0,college,not_college,False,3305,118,,not_college
+439,"A 28-year-old male, never married, working as a teaching assistant. Located in WA.",teaching assistant,maybe,2,college,college,True,3543,149,,college
+440,"A 34-year-old female, never married, working as a receptionist or information clerk. Located in NV.",receptionist or information clerk,no,0,not_college,not_college,True,3545,156,,not_college
+441,"A 26-year-old female, married present, working as a driver sales worker or truck driver. Located in ID.",driver sales worker or truck driver,no,0,not_college,not_college,True,3543,152,,not_college
+442,"A 45-year-old female, married present, working as a inspector tester sorter sampler or weigher. Located in TX.",inspector tester sorter sampler or weigher,no,0,not_college,not_college,True,3964,205,,not_college
+443,"A 42-year-old male, never married, working as a human resources worker. Located in TX.",human resources worker,yes,1,college,not_college,False,3687,170,,not_college
+444,"A 36-year-old male, married present, working as a chief executive. Located in MT.",chief executive,yes,1,not_college,college,False,3126,96,,college
+445,"A 45-year-old male, married present, working as a computer support specialist. Located in PA.",computer support specialist,maybe,2,not_college,college,False,4498,287,,college
+446,"A 59-year-old male, married present, working as a engineering technologist or technician. Located in VA.",engineering technologist or technician,maybe,2,college,college,True,3479,141,,college
+447,"A 62-year-old female, married present, working as a receptionist or information clerk. Located in SC.",receptionist or information clerk,no,0,not_college,not_college,True,3711,170,,not_college
+448,"A 45-year-old female, married present, working as a police officer. Located in CA.",police officer,maybe,2,college,college,True,3251,114,,college
+449,"A 51-year-old male, married present, working as a accountant or auditor. Located in PA.",accountant or auditor,yes,1,college,college,True,3185,111,,college
+450,"A 27-year-old female, never married, working as a electrician. Located in TX.",electrician,no,0,not_college,not_college,True,3690,176,,not_college
+451,"A 58-year-old male, married present, working as a construction laborer. Located in IL.",construction laborer,no,0,not_college,not_college,True,3267,114,,not_college
+452,"A 19-year-old male, never married, working as a automotive service technician or mechanic. Located in VA.",automotive service technician or mechanic,no,0,not_college,not_college,True,3467,142,,not_college
+453,"A 53-year-old male, married present, working as a waiter or waitress. Located in PR.",waiter or waitress,no,0,not_college,not_college,True,3590,166,,not_college
+454,"A 41-year-old male, divorced, working as a construction manager. Located in NY.",construction manager,yes,1,not_college,college,False,3707,167,,college
+455,"A 40-year-old female, married present, working as a elementary or middle school teacher. Located in AZ.",elementary or middle school teacher,yes,1,college,college,True,3232,111,,college
+456,"A 45-year-old male, married present, working as a janitor or building cleaner. Located in NC.",janitor or building cleaner,no,0,college,not_college,False,3430,140,,not_college
+457,"A 32-year-old male, never married, working as a electrician. Located in NY.",electrician,no,0,college,not_college,False,3630,168,,not_college
+458,"A 40-year-old male, married present, working as a police officer. Located in WV.",police officer,maybe,2,not_college,college,False,4525,277,,college
+459,"A 62-year-old female, divorced, working as a insurance sales agent. Located in MN.",insurance sales agent,maybe,2,college,not_college,False,4501,284,,not_college
+460,"A 28-year-old male, never married, working as a manager. Located in NM.",manager,maybe,2,not_college,college,False,3115,100,,college
+461,"A 46-year-old male, married present, working as a laborer or freight stock or material mover. Located in CA.",laborer or freight stock or material mover,no,0,not_college,not_college,True,2968,75,,not_college
+462,"A 40-year-old female, divorced, working as a sales representative of services. Located in TX.",sales representative of services,maybe,2,not_college,not_college,True,4869,337,,not_college
+463,"A 23-year-old female, never married, working as a janitor or building cleaner. Located in PA.",janitor or building cleaner,no,0,not_college,not_college,True,3506,151,,not_college
+464,"A 48-year-old female, divorced, working as a project management specialist. Located in CA.",project management specialist,yes,1,college,college,True,3015,79,,college
+465,"A 47-year-old female, divorced, working as a software developer. Located in NY.",software developer,yes,1,college,college,True,3288,122,,college
+466,"A 30-year-old female, married present, working as a engineering technologist or technician. Located in NJ.",engineering technologist or technician,maybe,2,college,college,True,3483,150,,college
+467,"A 35-year-old female, married present, working as a accountant or auditor. Located in OH.",accountant or auditor,yes,1,college,college,True,3066,84,,college
+468,"A 21-year-old male, never married, working as a courier or messenger. Located in CA.",courier or messenger,no,0,not_college,not_college,True,3281,118,,not_college
+469,"A 41-year-old female, married present, working as a manager. Located in NC.",manager,maybe,2,college,college,True,3127,95,,college
+470,"A 31-year-old male, never married, working as a sales representative wholesale or manufacturing. Located in OH.",sales representative wholesale or manufacturing,maybe,2,not_college,not_college,True,3774,183,,not_college
+471,"A 52-year-old female, married present, working as a police officer. Located in CA.",police officer,maybe,2,college,college,True,3734,179,,college
+472,"A 22-year-old male, never married, working as a first line supervisor of retail sales worker. Located in FL.",first line supervisor of retail sales worker,maybe,2,not_college,not_college,True,5018,351,,not_college
+473,"A 33-year-old female, never married, working as a stocker or order filler. Located in MD.",stocker or order filler,no,0,not_college,not_college,True,4360,265,,not_college
+474,"A 34-year-old female, never married, working as a driver sales worker or truck driver. Located in OH.",driver sales worker or truck driver,no,0,college,not_college,False,2991,71,,not_college
+475,"A 28-year-old male, never married, working as a engineer. Located in NM.",engineer,yes,1,not_college,college,False,3321,120,,college
+476,"A 25-year-old female, married present, working as a teacher or instructor. Located in TX.",teacher or instructor,yes,1,college,college,True,3259,116,,college
+477,"A 29-year-old male, never married, working as a production worker. Located in MO.",production worker,no,0,college,not_college,False,3854,194,,not_college
+478,"A 49-year-old female, married present, working as a management analyst. Located in NM.",management analyst,yes,1,college,college,True,3236,107,,college
+479,"A 59-year-old male, married present, working as a receptionist or information clerk. Located in TX.",receptionist or information clerk,no,0,not_college,not_college,True,3594,158,,not_college
+480,"A 57-year-old female, married present, working as a mathematical science occupation. Located in MA.",mathematical science occupation,yes,1,college,college,True,3084,91,,college
+481,"A 32-year-old female, divorced, working as a mathematical science occupation. Located in LA.",mathematical science occupation,yes,1,college,college,True,3063,97,,college
+482,"A 58-year-old male, divorced, working as a manager. Located in ME.",manager,maybe,2,college,college,True,3598,160,,college
+483,"A 53-year-old female, married present, working as a assembler or fabricator. Located in AZ.",assembler or fabricator,no,0,college,not_college,False,3503,140,,not_college
+484,"A 26-year-old female, never married, working as a maintenance or repair worker general. Located in IL.",maintenance or repair worker general,no,0,not_college,not_college,True,3338,113,,not_college
+485,"A 52-year-old male, never married, working as a driver sales worker or truck driver. Located in IN.",driver sales worker or truck driver,no,0,not_college,not_college,True,2978,74,,not_college
+486,"A 62-year-old male, divorced, working as a driver sales worker or truck driver. Located in OH.",driver sales worker or truck driver,no,0,not_college,not_college,True,3335,121,,not_college
+487,"A 27-year-old female, married present, working as a mathematical science occupation. Located in NJ.",mathematical science occupation,yes,1,college,college,True,3225,107,,college
+488,"A 35-year-old male, never married, working as a civil engineer. Located in TN.",civil engineer,yes,1,not_college,college,False,3016,77,,college
+489,"A 46-year-old male, divorced, working as a cashier. Located in WI.",cashier,no,0,not_college,not_college,True,3068,83,,not_college
+490,"A 60-year-old female, married present, working as a financial manager. Located in NC.",financial manager,yes,1,college,college,True,3006,81,,college
+491,"A 21-year-old female, never married, working as a janitor or building cleaner. Located in MA.",janitor or building cleaner,no,0,not_college,not_college,True,3616,161,,not_college
+492,"A 53-year-old male, never married, working as a assembler or fabricator. Located in FL.",assembler or fabricator,no,0,not_college,not_college,True,3400,122,,not_college
+493,"A 44-year-old female, married present, working as a maintenance or repair worker general. Located in NY.",maintenance or repair worker general,no,0,not_college,not_college,True,3585,160,,not_college
+494,"A 44-year-old male, never married, working as a police officer. Located in DE.",police officer,maybe,2,not_college,college,False,4148,238,,college
+495,"A 40-year-old male, married present, working as a sales representative wholesale or manufacturing. Located in CA.",sales representative wholesale or manufacturing,maybe,2,college,college,True,3971,206,,college
+496,"A 42-year-old female, married present, working as a assembler or fabricator. Located in MD.",assembler or fabricator,no,0,college,not_college,False,3586,158,,not_college
+497,"A 37-year-old male, married present, working as a customer service representative. Located in CA.",customer service representative,no,0,not_college,not_college,True,3995,213,,not_college
+498,"A 63-year-old female, divorced, working as a industrial truck or tractor operator. Located in PA.",industrial truck or tractor operator,no,0,not_college,not_college,True,3118,93,,not_college
+499,"A 42-year-old male, married present, working as a financial manager. Located in TX.",financial manager,yes,1,college,college,True,2906,69,,college
+500,"A 33-year-old male, divorced, working as a inspector tester sorter sampler or weigher. Located in MA.",inspector tester sorter sampler or weigher,no,0,not_college,not_college,True,3309,119,,not_college
+501,"A 45-year-old male, married present, working as a production worker. Located in MD.",production worker,no,0,not_college,not_college,True,3194,100,,not_college
+502,"A 31-year-old female, married present, working as a police officer. Located in WI.",police officer,maybe,2,college,college,True,3400,127,,college
+503,"A 49-year-old female, never married, working as a human resources worker. Located in OH.",human resources worker,yes,1,college,college,True,3745,171,,college
+504,"A 36-year-old male, married present, working as a management analyst. Located in NY.",management analyst,yes,1,not_college,college,False,3292,121,,college
+505,"A 59-year-old female, married present, working as a education or childcare administrator. Located in FL.",education or childcare administrator,yes,1,college,college,True,3424,144,,college
+506,"A 51-year-old female, married present, working as a maid or housekeeping cleaner. Located in SC.",maid or housekeeping cleaner,no,0,not_college,not_college,True,2949,70,,not_college
+507,"A 69-year-old male, never married, working as a customer service representative. Located in AZ.",customer service representative,no,0,college,not_college,False,4056,219,,not_college
+508,"A 18-year-old male, never married, working as a construction laborer. Located in IL.",construction laborer,no,0,not_college,not_college,True,2936,67,,not_college
+509,"A 85-year-old female, married present, working as a carpenter. Located in CA.",carpenter,no,0,not_college,not_college,True,3315,131,,not_college
+510,"A 41-year-old male, married present, working as a construction manager. Located in NJ.",construction manager,yes,1,college,college,True,4172,236,,college
+511,"A 47-year-old male, married present, working as a customer service representative. Located in NV.",customer service representative,no,0,not_college,not_college,True,3409,133,,not_college
+512,"A 36-year-old female, divorced, working as a secretary or administrative assistant. Located in MA.",secretary or administrative assistant,no,0,not_college,not_college,True,4940,344,,not_college
+513,"A 27-year-old male, never married, working as a secondary school teacher. Located in OH.",secondary school teacher,yes,1,college,college,True,3363,125,,college
+514,"A 31-year-old female, married present, working as a financial manager. Located in NJ.",financial manager,yes,1,not_college,college,False,3284,110,,college
+515,"A 50-year-old male, married present, working as a construction manager. Located in NY.",construction manager,yes,1,college,college,True,3531,150,,college
+516,"A 33-year-old male, never married, working as a software developer. Located in CA.",software developer,yes,1,college,college,True,3412,131,,college
+517,"A 46-year-old female, divorced, working as a first line supervisor of office or administrative support worker. Located in TX.",first line supervisor of office or administrative support worker,maybe,2,college,college,True,4546,283,,college
+518,"A 50-year-old female, married present, working as a physician. Located in PA.",physician,yes,1,college,college,True,3033,73,,college
+519,"A 25-year-old male, never married, working as a customer service representative. Located in MN.",customer service representative,no,0,not_college,not_college,True,4046,226,,not_college
+520,"A 47-year-old male, never married, working as a accountant or auditor. Located in FL.",accountant or auditor,yes,1,not_college,college,False,3289,116,,college
+521,"A 53-year-old male, married present, working as a general or operations manager. Located in NH.",general or operations manager,maybe,2,college,college,True,3964,211,,college
+522,"A 54-year-old female, married present, working as a business operations specialist. Located in MI.",business operations specialist,maybe,2,college,college,True,3302,121,,college
+523,"A 52-year-old male, married present, working as a real estate broker or sales agent. Located in CA.",real estate broker or sales agent,maybe,2,not_college,college,False,3805,183,,college
+524,"A 40-year-old female, never married, working as a maid or housekeeping cleaner. Located in CA.",maid or housekeeping cleaner,no,0,not_college,not_college,True,2981,68,,not_college
+525,"A 60-year-old male, divorced, working as a production worker. Located in CO.",production worker,no,0,college,not_college,False,3365,120,,not_college
+526,"A 43-year-old male, married present, working as a computer occupation. Located in TX.",computer occupation,maybe,2,college,college,True,3501,155,,college
+527,"A 33-year-old female, married present, working as a cashier. Located in FL.",cashier,no,0,not_college,not_college,True,3057,90,,not_college
+528,"A 30-year-old female, married present, working as a food service manager. Located in NC.",food service manager,maybe,2,college,college,True,4197,245,,college
+529,"A 26-year-old female, never married, working as a maintenance or repair worker general. Located in CA.",maintenance or repair worker general,no,0,not_college,not_college,True,3452,145,,not_college
+530,"A 23-year-old female, never married, working as a maintenance or repair worker general. Located in MN.",maintenance or repair worker general,no,0,not_college,not_college,True,3546,159,,not_college
+531,"A 28-year-old female, divorced, working as a receptionist or information clerk. Located in GA.",receptionist or information clerk,no,0,not_college,not_college,True,4026,219,,not_college
+532,"A 51-year-old female, divorced, working as a painter or paperhanger. Located in WI.",painter or paperhanger,no,0,not_college,not_college,True,3333,130,,not_college
+533,"A 61-year-old female, widowed, working as a elementary or middle school teacher. Located in TX.",elementary or middle school teacher,yes,1,college,college,True,3278,116,,college
+534,"A 38-year-old female, married present, working as a secondary school teacher. Located in NJ.",secondary school teacher,yes,1,college,college,True,3287,109,,college
+535,"A 54-year-old female, divorced, working as a janitor or building cleaner. Located in CA.",janitor or building cleaner,no,0,not_college,not_college,True,3642,167,,not_college
+536,"A 20-year-old female, never married, working as a market research analyst or marketing specialist. Located in GA.",market research analyst or marketing specialist,yes,1,college,college,True,3584,159,,college
+537,"A 54-year-old male, married present, working as a construction manager. Located in IL.",construction manager,yes,1,not_college,college,False,3991,220,,college
+538,"A 49-year-old male, never married, working as a stocker or order filler. Located in IA.",stocker or order filler,no,0,not_college,not_college,True,2974,74,,not_college
+539,"A 46-year-old female, never married, working as a insurance sales agent. Located in FL.",insurance sales agent,maybe,2,college,not_college,False,3658,167,,not_college
+540,"A 26-year-old female, married present, working as a painter or paperhanger. Located in NY.",painter or paperhanger,no,0,not_college,not_college,True,3873,194,,not_college
+541,"A 71-year-old female, never married, working as a accountant or auditor. Located in CA.",accountant or auditor,yes,1,college,college,True,3593,170,,college
+542,"A 53-year-old male, divorced, working as a food service manager. Located in TN.",food service manager,maybe,2,college,not_college,False,3449,134,,not_college
+543,"A 65-year-old female, never married, working as a stocker or order filler. Located in PA.",stocker or order filler,no,0,not_college,not_college,True,3209,104,,not_college
+544,"A 57-year-old female, never married, working as a stocker or order filler. Located in PR.",stocker or order filler,no,0,college,not_college,False,3901,201,,not_college
+545,"A 43-year-old female, married present, working as a computer occupation. Located in GA.",computer occupation,maybe,2,college,college,True,3653,158,,college
+546,"A 32-year-old female, never married, working as a janitor or building cleaner. Located in PR.",janitor or building cleaner,no,0,not_college,not_college,True,3621,157,,not_college
+547,"A 24-year-old female, never married, working as a inspector tester sorter sampler or weigher. Located in GA.",inspector tester sorter sampler or weigher,no,0,not_college,not_college,True,3506,154,,not_college
+548,"A 88-year-old female, married present, working as a sales representative wholesale or manufacturing. Located in WA.",sales representative wholesale or manufacturing,maybe,2,college,not_college,False,4792,324,,not_college
+549,"A 22-year-old female, never married, working as a construction laborer. Located in MI.",construction laborer,no,0,not_college,not_college,True,3358,129,,not_college
+550,"A 52-year-old female, divorced, working as a elementary or middle school teacher. Located in CO.",elementary or middle school teacher,yes,1,college,college,True,3223,109,,college
+551,"A 46-year-old female, married present, working as a computer occupation. Located in OH.",computer occupation,maybe,2,college,college,True,3043,82,,college
+552,"A 47-year-old male, married present, working as a courier or messenger. Located in MD.",courier or messenger,no,0,not_college,not_college,True,3758,186,,not_college
+553,"A 33-year-old female, married present, working as a chief executive. Located in FL.",chief executive,yes,1,not_college,college,False,3283,121,,college
+554,"A 62-year-old male, never married, working as a postsecondary teacher. Located in NY.",postsecondary teacher,yes,1,college,college,True,2999,75,,college
+555,"A 74-year-old female, married present, working as a driver sales worker or truck driver. Located in WA.",driver sales worker or truck driver,no,0,not_college,not_college,True,3585,152,,not_college
+556,"A 64-year-old female, divorced, working as a accountant or auditor. Located in OR.",accountant or auditor,yes,1,not_college,college,False,3635,161,,college
+557,"A 48-year-old female, divorced, working as a electrician. Located in TX.",electrician,no,0,not_college,not_college,True,3219,105,,not_college
+558,"A 30-year-old female, married present, working as a computer occupation. Located in FL.",computer occupation,maybe,2,college,college,True,3051,84,,college
+559,"A 59-year-old female, widowed, working as a janitor or building cleaner. Located in OK.",janitor or building cleaner,no,0,college,not_college,False,2945,73,,not_college
+560,"A 51-year-old male, married present, working as a office clerk general. Located in TX.",office clerk general,no,0,not_college,not_college,True,3733,177,,not_college
+561,"A 56-year-old male, married present, working as a software developer. Located in MO.",software developer,yes,1,college,college,True,3063,94,,college
+562,"A 38-year-old male, married present, working as a mathematical science occupation. Located in MN.",mathematical science occupation,yes,1,college,college,True,3119,83,,college
+563,"A 55-year-old male, divorced, working as a mathematical science occupation. Located in GA.",mathematical science occupation,yes,1,college,college,True,3125,87,,college
+564,"A 58-year-old male, married present, working as a insurance sales agent. Located in TX.",insurance sales agent,maybe,2,not_college,not_college,True,5218,379,,not_college
+565,"A 46-year-old male, married present, working as a first line supervisor of non retail sales worker. Located in PA.",first line supervisor of non retail sales worker,maybe,2,college,college,True,4244,245,,college
+566,"A 63-year-old female, married present, working as a production worker. Located in GA.",production worker,no,0,not_college,not_college,True,3231,113,,not_college
+567,"A 60-year-old female, married present, working as a accountant or auditor. Located in NJ.",accountant or auditor,yes,1,not_college,college,False,3500,156,,college
+568,"A 50-year-old female, married present, working as a bookkeeping accounting or auditing clerk. Located in CA.",bookkeeping accounting or auditing clerk,no,0,college,college,True,4874,331,,college
+569,"A 40-year-old male, married present, working as a retail salesperson. Located in TX.",retail salesperson,no,0,not_college,not_college,True,3742,171,,not_college
+570,"A 63-year-old female, married present, working as a first line supervisor of office or administrative support worker. Located in FL.",first line supervisor of office or administrative support worker,maybe,2,not_college,college,False,4133,230,,college
+571,"A 45-year-old male, married present, working as a security guard or gambling surveillance officer. Located in TX.",security guard or gambling surveillance officer,no,0,college,not_college,False,3295,115,,not_college
+572,"A 20-year-old male, never married, working as a retail salesperson. Located in GA.",retail salesperson,no,0,not_college,not_college,True,3440,140,,not_college
+573,"A 44-year-old female, divorced, working as a childcare worker. Located in TX.",childcare worker,no,0,not_college,not_college,True,3337,120,,not_college
+574,"A 33-year-old female, never married, working as a inspector tester sorter sampler or weigher. Located in MI.",inspector tester sorter sampler or weigher,no,0,not_college,not_college,True,3846,192,,not_college
+575,"A 33-year-old female, never married, working as a management analyst. Located in CA.",management analyst,yes,1,not_college,college,False,2979,80,,college
+576,"A 30-year-old female, never married, working as a registered nurse. Located in OH.",registered nurse,yes,1,college,college,True,3208,111,,college
+577,"A 47-year-old male, married present, working as a food service manager. Located in CA.",food service manager,maybe,2,not_college,not_college,True,3729,181,,not_college
+578,"A 52-year-old female, married present, working as a childcare worker. Located in IN.",childcare worker,no,0,not_college,not_college,True,3898,198,,not_college
+579,"A 57-year-old female, married present, working as a painter or paperhanger. Located in OR.",painter or paperhanger,no,0,not_college,not_college,True,3965,201,,not_college
+580,"A 31-year-old female, married present, working as a insurance sales agent. Located in MO.",insurance sales agent,maybe,2,not_college,college,False,3920,205,,college
+581,"A 32-year-old female, married present, working as a construction laborer. Located in OH.",construction laborer,no,0,not_college,not_college,True,3491,146,,not_college
+582,"A 43-year-old male, married present, working as a shipping receiving or inventory clerk. Located in IL.",shipping receiving or inventory clerk,no,0,not_college,not_college,True,3072,94,,not_college
+583,"A 63-year-old female, widowed, working as a assembler or fabricator. Located in OH.",assembler or fabricator,no,0,not_college,not_college,True,3466,138,,not_college
+584,"A 25-year-old male, married present, working as a retail salesperson. Located in TX.",retail salesperson,no,0,not_college,not_college,True,3755,183,,not_college
+585,"A 28-year-old female, never married, working as a business operations specialist. Located in WI.",business operations specialist,maybe,2,college,college,True,3157,96,,college
+586,"A 36-year-old male, married present, working as a personal care aide. Located in KS.",personal care aide,no,0,not_college,not_college,True,3482,144,,not_college
+587,"A 63-year-old female, married present, working as a elementary or middle school teacher. Located in NY.",elementary or middle school teacher,yes,1,college,college,True,3070,89,,college
+588,"A 39-year-old female, never married, working as a driver sales worker or truck driver. Located in TX.",driver sales worker or truck driver,no,0,college,not_college,False,3323,128,,not_college
+589,"A 72-year-old male, separated, working as a first line supervisor of non retail sales worker. Located in NY.",first line supervisor of non retail sales worker,maybe,2,not_college,college,False,4178,240,,college
+590,"A 34-year-old male, married present, working as a software developer. Located in NJ.",software developer,yes,1,college,college,True,3029,83,,college
+591,"A 38-year-old female, never married, working as a maid or housekeeping cleaner. Located in IL.",maid or housekeeping cleaner,no,0,not_college,not_college,True,3083,91,,not_college
+592,"A 50-year-old male, married present, working as a clergy. Located in OH.",clergy,yes,1,college,college,True,3703,171,,college
+593,"A 48-year-old female, married present, working as a automotive service technician or mechanic. Located in IL.",automotive service technician or mechanic,no,0,not_college,not_college,True,3745,181,,not_college
+594,"A 18-year-old male, never married, working as a chief executive. Located in CA.",chief executive,yes,1,college,college,True,3636,164,,college
+595,"A 36-year-old male, never married, working as a real estate broker or sales agent. Located in IL.",real estate broker or sales agent,maybe,2,college,college,True,4724,310,,college
+596,"A 73-year-old female, married present, working as a receptionist or information clerk. Located in DE.",receptionist or information clerk,no,0,not_college,not_college,True,3370,128,,not_college
+597,"A 36-year-old female, never married, working as a manager. Located in NY.",manager,maybe,2,college,college,True,3300,116,,college
+598,"A 43-year-old female, married present, working as a painter or paperhanger. Located in CA.",painter or paperhanger,no,0,not_college,not_college,True,3618,161,,not_college
+599,"A 34-year-old male, married present, working as a general or operations manager. Located in TX.",general or operations manager,maybe,2,college,college,True,3253,114,,college
+600,"A 29-year-old female, never married, working as a security guard or gambling surveillance officer. Located in CA.",security guard or gambling surveillance officer,no,0,not_college,not_college,True,3800,191,,not_college
+601,"A 30-year-old male, never married, working as a construction laborer. Located in TN.",construction laborer,no,0,not_college,not_college,True,2825,58,,not_college
+602,"A 49-year-old male, married present, working as a customer service representative. Located in MN.",customer service representative,no,0,college,not_college,False,4465,272,,not_college
+603,"A 60-year-old male, married present, working as a courier or messenger. Located in AL.",courier or messenger,no,0,college,not_college,False,3832,187,,not_college
+604,"A 50-year-old female, married present, working as a maid or housekeeping cleaner. Located in IA.",maid or housekeeping cleaner,no,0,not_college,not_college,True,3475,144,,not_college
+605,"A 45-year-old female, never married, working as a cashier. Located in TN.",cashier,no,0,college,not_college,False,2970,82,,not_college
+606,"A 62-year-old male, married present, working as a first line supervisor of production or operating worker. Located in TX.",first line supervisor of production or operating worker,maybe,2,not_college,not_college,True,3412,135,,not_college
+607,"A 23-year-old male, never married, working as a customer service representative. Located in CA.",customer service representative,no,0,not_college,not_college,True,4116,234,,not_college
+608,"A 53-year-old female, married present, working as a janitor or building cleaner. Located in MD.",janitor or building cleaner,no,0,not_college,not_college,True,3466,142,,not_college
+609,"A 53-year-old male, married present, working as a security guard or gambling surveillance officer. Located in CA.",security guard or gambling surveillance officer,no,0,college,not_college,False,3074,88,,not_college
+610,"A 62-year-old male, married present, working as a construction manager. Located in OH.",construction manager,yes,1,not_college,college,False,3444,137,,college
+611,"A 63-year-old female, married present, working as a security guard or gambling surveillance officer. Located in SC.",security guard or gambling surveillance officer,no,0,not_college,not_college,True,3379,130,,not_college
+612,"A 50-year-old female, married present, working as a computer systems analyst. Located in WA.",computer systems analyst,yes,1,not_college,college,False,3070,84,,college
+613,"A 60-year-old male, divorced, working as a inspector tester sorter sampler or weigher. Located in CA.",inspector tester sorter sampler or weigher,no,0,college,not_college,False,3094,92,,not_college
+614,"A 25-year-old female, never married, working as a elementary or middle school teacher. Located in TX.",elementary or middle school teacher,yes,1,college,college,True,3022,78,,college

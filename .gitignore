@@ -218,8 +218,8 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Results and outputs
-results/*.png
-results/*.csv
+#results/*.png
+#results/*.csv
 
 # Data files
 data/*.csv
