@@ -1,13 +1,13 @@
 input,true_label,pred_label,correct,time_ms,tokens,trace,raw
-"A 47-year-old male, divorced, working as a laborer or freight stock or material mover. Located in TN.",not_college,not_college,True,7113,61,,not_college
-"A 60-year-old female, married present, working as a customer service representative. Located in NV.",college,not_college,False,3245,125,,"The provided information does not include any details about the person's educational attainment, so we cannot determine if they have a bachelor’s degree or higher. Therefore, based on the available data, the classification is:
+"A 47-year-old male, divorced, working as a laborer or freight stock or material mover. Located in TN.",not_college,not_college,True,6720,61,,not_college
+"A 60-year-old female, married present, working as a customer service representative. Located in NV.",college,not_college,False,2959,87,,not_college
+"A 39-year-old female, married present, working as a project management specialist. Located in NY.",college,not_college,False,3060,83,,not_college
+"A 53-year-old female, widowed, working as a customer service representative. Located in LA.",not_college,not_college,True,3106,91,,not_college
+"A 23-year-old female, married present, working as a security guard or gambling surveillance officer. Located in MS.",not_college,not_college,True,2950,79,,not_college
+"A 31-year-old female, married present, working as a stocker or order filler. Located in WA.",not_college,not_college,True,3135,103,,not_college
+"A 35-year-old male, married present, working as a customer service representative. Located in CA.",not_college,not_college,True,2984,102,,not_college
+"A 49-year-old female, never married, working as a cashier. Located in CA.",not_college,college,False,3351,137,,"The provided information does not indicate any post-secondary degree; the person works as a cashier and there is no mention of an associate's, bachelor's, or graduate degree. Therefore, based on the given data, we classify them as not college-educated.
 
 not_college"
-"A 39-year-old female, married present, working as a project management specialist. Located in NY.",college,not_college,False,3668,169,,not_college
-"A 53-year-old female, widowed, working as a customer service representative. Located in LA.",not_college,not_college,True,3102,94,,not_college
-"A 23-year-old female, married present, working as a security guard or gambling surveillance officer. Located in MS.",not_college,not_college,True,2895,75,,not_college
-"A 31-year-old female, married present, working as a stocker or order filler. Located in WA.",not_college,not_college,True,2806,56,,not_college
-"A 35-year-old male, married present, working as a customer service representative. Located in CA.",not_college,not_college,True,3098,96,,not_college
-"A 49-year-old female, never married, working as a cashier. Located in CA.",not_college,not_college,True,2843,69,,not_college
-"A 24-year-old male, never married, working as a software developer. Located in GA.",college,college,True,3321,122,,college
-"A 57-year-old male, married present, working as a retail salesperson. Located in MO.",college,not_college,False,3168,114,,not_college
+"A 24-year-old male, never married, working as a software developer. Located in GA.",college,college,True,3065,85,,college
+"A 57-year-old male, married present, working as a retail salesperson. Located in MO.",college,not_college,False,2956,75,,not_college

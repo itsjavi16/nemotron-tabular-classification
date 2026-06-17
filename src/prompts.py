@@ -1,7 +1,7 @@
 from src.serialize import serialize_row
 
 SYSTEM_PROMPT = """You are an education level classifier. Given a person's demographic information,
-predict whether they are college-educated (have a bachelor's degree or higher) or not.
+predict whether they are college-educated (have an associates, bachelor's, or graduate degree) or not.
 Think step by step, then respond with ONLY one of these two labels on the final line: college or not_college."""
 
 

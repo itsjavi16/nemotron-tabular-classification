@@ -1,0 +1,8 @@
+model,accuracy,macro_f1,auc_roc,n,week
+Random Forest,0.6439,0.64,0.6398,615,1
+XGBoost,0.7089,0.7067,0.7069,615,1
+Nano 4B zero-shot,0.6439,0.6207,0.6264,615,3
+Nano 4B few-shot,0.7075,0.7075,0.7136,612,3
+Nano 30B zero-shot,0.7301,0.7291,0.7308,615,4
+Nano 30B few-shot,0.6821,0.6817,0.6888,563,4
+Nano 30B reasoning OFF,0.735,0.7331,0.7334,615,4
