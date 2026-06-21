@@ -234,3 +234,9 @@ models/
 *.gguf
 *.bin
 *.safetensors
+
+# Model files (large, do not commit)
+models/
+*.gguf
+*.bin
+*.safetensors
